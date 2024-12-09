@@ -1,0 +1,48 @@
+#navbar{
+    background-color: rgb(188, 152, 205);
+    height: 80px;
+    
+  }
+  #nav-logo{
+    width: 150px;
+    margin: 10px 10px ;
+    position: absolute;
+  }
+  #localtion{
+    margin-left: 200px;
+   }
+   #dtime{
+    margin-top: 5px;
+    position: absolute;
+   }
+  #current-location{
+    margin-top: 24px;
+    display: flex;
+    position: absolute;
+  }
+  #search{
+    margin-left: 500px;
+    margin-top: 20px;
+    position: absolute;
+    display: flex;
+    width: 550px;
+    height: 40px;
+    background-color: white;
+    
+  }
+  #search-icon{
+    font-size: x-large;
+    margin-top: 5px;
+  }
+  #login{
+    margin-left: 1060px;
+    font-size:xx-large;
+    margin-top: 20px;
+    position: absolute;
+  }
+  #cart{
+    margin-left:1100px ;
+    font-size:xx-large;
+    margin-top: 20px;
+    position: absolute;
+  }
