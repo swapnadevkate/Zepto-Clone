@@ -34,9 +34,9 @@ function App() {
             </>
           }
         />
-        <Route path="/shopingCorner/WomensCorner" element={<WomensCorner />} />
-        <Route path="/shopingCorner/MensCorner" element={<MensCorner />} />
-        <Route path="/shopingCorner/GiftingSpecials" element={<GiftingSpecials/>} />
+        <Route path="/shopingCorner/:id" element={<WomensCorner />} />
+        {/* <Route path="/shopingCorner/MensCorner" element={<MensCorner />} />
+        <Route path="/shopingCorner/GiftingSpecials" element={<GiftingSpecials/>} /> */}
 
       </Routes>
     </>

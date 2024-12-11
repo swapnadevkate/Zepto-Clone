@@ -5,7 +5,7 @@ function Herosection() {
   return (
     <>
     <div id='heroimg'>
-        <img src={paan}></img>
+        <img src={paan} style={{width:'100%',height:'250px'}}></img>
     </div>
     </>
   )

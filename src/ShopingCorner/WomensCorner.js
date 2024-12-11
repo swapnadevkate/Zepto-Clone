@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+
 import wedding from "./../Images/3e269f2a-3ca1-46cf-9790-9c0d34cbb0c7.webp";
 import txt from "./../Images/cdf23ebc-17c2-4553-b7f3-220d384f8de4.webp";
 import buystext from "./../Images/b741f5f6-d36b-4601-bad4-1fa49edb1c9d.jpeg";
@@ -15,41 +16,77 @@ import lipbulm from './../Images/c37e13ce-9bd7-4010-9cff-e65a4c184d3c.webp'
 import shadow from './../Images/24a5549d-143a-4da8-adaa-8d413dc12d15.webp'
 import sugar from './../Images/c1d2f621-151f-4bd9-8aae-f88e9196a9f6.webp'
 import venus from './../Images/b793bd4e-5fa2-44ee-b11d-d513df4e2c81.webp'
+import seeall from "./../Images/53dbb4ac-d4ba-4165-aa4d-e917e771c4e9.webp";
+import perfum from "./../Images/85694e08-61e4-42b1-a37d-f06dd79f979c.webp";
+
+
 import "./WomensCorner.css";
 import Button from "../Buttons/Button";
+import { facemakeupData, lipsticksData, eyemakeupData, nailpaintData, skincareData } from "../Productdata/ProductData";
+import {shavingCreamData,beardOilData,hairGelData ,deodorantData,sunscreenData} from '../Productdata/MensProductData'
+import {giftSpecialsData1 ,giftSpecialsData2 ,giftSpecialsData3 ,giftSpecialsData4 ,giftSpecialsData5} from '../Productdata/GiftingSpecials'
+
+import { useParams } from "react-router-dom";
+import MensCorner from "./MensCorner";
+import GiftingSpecials from "./GiftingSpecials";
+
 
 function WomensCorner() {
-  const [showbtn, setShowbtn] = useState(false);
-const arr = [
-  {
-    id : 1,
-    name:"Facemakeup",
-    img:cream
-  },
-  {
-    id : 2,
-    name:"Lipsticks",
-    img :lipbulm
-  },
-  {
-    id:3,
-    name:"Eyemakeup",
-    img :shadow
-  },
-  {
-    id : 4,
-    name:"NailPaint &more",
-    img:sugar
-  },
-  {
-    id : 5,
-    name:"skincare",
-    img:venus
+  const [showbtn, setShowbtn] = useState(null);
+  const {id}=useParams()
+  console.log(id)
+  let arr = []
+  let arr1= []
+  let arr2 = []
+  if(id === 'WomensCorner'){
+     arr = [
+      { id: 1, name: "Facemakeup", img: cream },
+      { id: 2, name: "Lipsticks", img: lipbulm },
+      { id: 3, name: "Eyemakeup", img: shadow },
+      { id: 4, name: "NailPaint & more", img: sugar },
+      { id: 5, name: "Skincare", img: venus }
+      
+    ];
+  }else if(id === 'MensCorner'){
+     arr1 = [
+      { id: 1, name: "shavingCream",img:perfum },
+      { id: 2, name: "beardOil",img:perfum },
+      { id: 3, name: "hairGel",img:perfum },
+      { id: 4, name: "deodorant" ,img:perfum },
+      { id: 5, name: "sunscreen",img:perfum }
+    ];
+  }else if(id === 'GiftingSpecials'){
+    arr2 = [
+      { id: 1, name: "celebration",img:perfum },
+      { id: 2, name: "toys",img:perfum },
+      { id: 3, name: "flowers",img:perfum },
+      { id: 4, name: "books" ,img:perfum },
+      { id: 5, name: "mobiles",img:perfum }
+    ];
   }
-]
-  const btnHandler = () => {
-    setShowbtn(!showbtn);
+  
+  
+  const btnHandler = (id) => {
+    setShowbtn(id);
   };
+  let activeProducts = [];
+
+  // Set active product data based on the selected category
+  if (showbtn === 1 && id === 'WomensCorner') activeProducts = facemakeupData;
+  if (showbtn === 2 && id === 'WomensCorner') activeProducts = lipsticksData;
+  if (showbtn === 3 && id === 'WomensCorner') activeProducts = eyemakeupData;
+  if (showbtn === 4 && id === 'WomensCorner') activeProducts = nailpaintData;
+  if (showbtn === 5 && id === 'WomensCorner') activeProducts = skincareData;
+  if (showbtn === 1 && id === 'MensCorner') activeProducts = shavingCreamData;
+  if (showbtn === 2 && id === 'MensCorner') activeProducts = beardOilData
+  if (showbtn === 3 && id === 'MensCorner') activeProducts = hairGelData
+  if (showbtn === 4 && id === 'MensCorner') activeProducts = deodorantData
+  if (showbtn === 5 && id === 'MensCorner') activeProducts = sunscreenData
+  if (showbtn === 1 && id === 'GiftingSpecials') activeProducts = giftSpecialsData1;
+  if (showbtn === 2 && id === 'GiftingSpecials') activeProducts = giftSpecialsData2
+  if (showbtn === 3 && id === 'GiftingSpecials') activeProducts =giftSpecialsData3
+  if (showbtn === 4 && id === 'GiftingSpecials') activeProducts = giftSpecialsData4
+  if (showbtn === 5 && id === 'GiftingSpecials') activeProducts = giftSpecialsData5
   return (
     <>
       <div>
@@ -101,11 +138,10 @@ const arr = [
       <div id="makeupCategories">
 
       
-        {
-            arr.map((value)=>{
+        {id === 'WomensCorner'&& arr.map((value)=>{
              
               return (
-                <button class="makeupCategory" onClick={btnHandler} >
+                <button class="makeupCategory" onClick={()=>btnHandler(value.id)} >
                 <img src={`${value.img}`}
                   style={{ height: "50px", width: "45px"}}
                 ></img>
@@ -117,16 +153,50 @@ const arr = [
               )
             })
           }
-        {showbtn && (
+          {id === 'MensCorner' && arr1.map((value)=>{
+             
+             return (
+               <button class="makeupCategory" onClick={()=>btnHandler(value.id)} >
+               <img src={`${value.img}`}
+                 style={{ height: "50px", width: "45px"}}
+               ></img>
+                <div class="span">
+                     <span>{`${value.name}`}</span>
+                   </div>
+               
+             </button>
+             )
+           })
+         }
+         {id === 'GiftingSpecials' && arr2.map((value)=>{
+             
+             return (
+               <button class="makeupCategory" onClick={()=>btnHandler(value.id)} >
+               <img src={`${value.img}`}
+                 style={{ height: "50px", width: "45px"}}
+               ></img>
+                <div class="span">
+                     <span>{`${value.name}`}</span>
+                   </div>
+               
+             </button>
+             )
+           })
+         }
+        {showbtn &&  (
         <div class='faceMakeup'>
-            <Button></Button>
+            <Button products={activeProducts}></Button>
           </div>
         )}
 
         
+      </div>
+      <div id="seeall">
+        <img src={seeall} style={{width:"100%", height:"200px"}}></img>
       </div>
     </>
   );
 }
 
 export default WomensCorner;
+
