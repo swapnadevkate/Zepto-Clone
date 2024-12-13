@@ -18,6 +18,14 @@ import sugar from './../Images/c1d2f621-151f-4bd9-8aae-f88e9196a9f6.webp'
 import venus from './../Images/b793bd4e-5fa2-44ee-b11d-d513df4e2c81.webp'
 import seeall from "./../Images/53dbb4ac-d4ba-4165-aa4d-e917e771c4e9.webp";
 import perfum from "./../Images/85694e08-61e4-42b1-a37d-f06dd79f979c.webp";
+import gillete from "./../Images/f9fe52f6-a24d-4b2d-a893-cee776a6cbc2.webp";
+import oil from "./../Images/1f5e85fc-c353-4ac5-92ef-be3b29c004dc.webp";
+import pears from "./../Images/0307c76d-f51c-446b-971b-67fa17dfbc0c.webp";
+import deo from "./../Images/5f985218-821d-42b7-abe2-72d7e62eb959.webp";
+import lasheild from "./../Images/080efcff-bf1e-471b-921e-9d777ad1489e.webp";
+import mweding from "./../Images/fb141278-29df-4dcf-9b4a-f8f4c60015e7.webp";
+import giftspecial from "./../Images/fb77320f-917d-403a-b4ae-d1135234e7cb.webp";
+
 
 
 import "./WomensCorner.css";
@@ -35,9 +43,26 @@ function WomensCorner() {
   const [showbtn, setShowbtn] = useState(null);
   const {id}=useParams()
   console.log(id)
+  let arrImg = []
+  if(id === 'WomensCorner' ){
+    arrImg=[
+      {id:1,img:wedding}
+    ]
+  }else if (id == 'MensCorner' ){
+    arrImg=[
+      {id:2,img:mweding}
+    ]
+    
+  }else if (id == 'GiftingSpecials'){
+    arrImg=[
+      {id:2,img:giftspecial}
+    ]
+  }
+ 
   let arr = []
   let arr1= []
   let arr2 = []
+  
   if(id === 'WomensCorner'){
      arr = [
       { id: 1, name: "Facemakeup", img: cream },
@@ -49,11 +74,11 @@ function WomensCorner() {
     ];
   }else if(id === 'MensCorner'){
      arr1 = [
-      { id: 1, name: "shavingCream",img:perfum },
-      { id: 2, name: "beardOil",img:perfum },
-      { id: 3, name: "hairGel",img:perfum },
-      { id: 4, name: "deodorant" ,img:perfum },
-      { id: 5, name: "sunscreen",img:perfum }
+      { id: 1, name: "shavingCream",img:gillete},
+      { id: 2, name: "beardOil",img:oil },
+      { id: 3, name: "hairGel",img:pears },
+      { id: 4, name: "deodorant" ,img:deo },
+      { id: 5, name: "sunscreen",img:lasheild  }
     ];
   }else if(id === 'GiftingSpecials'){
     arr2 = [
@@ -87,11 +112,24 @@ function WomensCorner() {
   if (showbtn === 3 && id === 'GiftingSpecials') activeProducts =giftSpecialsData3
   if (showbtn === 4 && id === 'GiftingSpecials') activeProducts = giftSpecialsData4
   if (showbtn === 5 && id === 'GiftingSpecials') activeProducts = giftSpecialsData5
+  let shortImges = []
+  if(id === 'WomensCorner'){
+    shortImges=[
+      {img:eylash}
+    ]
+  }
   return (
     <>
-      <div>
-        <img src={wedding} style={{ height: "900px", width: "100%" }}></img>
-      </div>
+    <div>
+        {
+  id && arrImg.map((e)=>{
+     return (
+       <img src={e.img} style={{ height: "900px", width: "100%" }}></img>
+     )
+   })
+ }
+     </div>
+      
       <div>
         <img src={txt} style={{ height: "130px" }}></img>
       </div>
@@ -128,17 +166,11 @@ function WomensCorner() {
 
         </div>
       </div>
-      <div>
-        <img
-          src={buystext}
-          style={{ height: "150px", marginLeft: "250px" }}
-        ></img>
-      </div>
+      
 
       <div id="makeupCategories">
-
-      
-        {id === 'WomensCorner'&& arr.map((value)=>{
+       
+      {id === 'WomensCorner'&& arr.map((value)=>{
              
               return (
                 <button class="makeupCategory" onClick={()=>btnHandler(value.id)} >

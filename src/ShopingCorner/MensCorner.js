@@ -1,5 +1,7 @@
 import React, { useState } from 'react'
 import Button from "../Buttons/Button";
+import menweding from "./../Images//fb141278-29df-4dcf-9b4a-f8f4c60015e7.webp";
+
 import {shavingCreamData,beardOilData,hairGelData ,deodorantData,sunscreenData} from '../Productdata/MensProductData'
 function MensCorner() {
   const [productdata,setProductData]=useState(null)
@@ -22,6 +24,9 @@ function MensCorner() {
   }
   return (
     <>
+    <div>
+        <img src={menweding} style={{ height: "900px", width: "100%" }}></img>
+      </div>
     <div id='menscategories'>
 
     

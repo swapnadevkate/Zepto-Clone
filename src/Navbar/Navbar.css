@@ -41,8 +41,15 @@
     position: absolute;
   }
   #cart{
-    margin-left:1100px ;
+    margin-left:1130px ;
     font-size:xx-large;
     margin-top: 20px;
     position: absolute;
+  }
+  #cartspan{
+  border: 1px solid black;
+  border-radius: 50%; 
+  height: 2px;
+  width: 2px;
+  
   }

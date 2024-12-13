@@ -1,23 +1,26 @@
-import React, { useState } from "react";
+import React, { useContext, useState } from "react";
 import "./Button.css";
-import { CiPlay1 } from "react-icons/ci";
-
+import DataContext from '../DataContext/DataContext'
 function Button({ products }) {
+  const {state,dispatch}=useContext(DataContext)
+ 
   return (
     <>
       <div id="facumakeupBox">
         {products.map((e) => {
+          console.log(e);
           return (
             <div key={e.id} class="button1">
               <img src={e.img} id="imgid"></img>
               <p>{`${e.para}`}</p>
               <p>{`${e.quantity}`}</p>
               <p id="pricepara">
-                <b>${`${e.Price}`} </b>
+                <b>${`${e.price}`} </b>
                 <span id="pricespan">$1000</span>
               </p>
-              <button id="buynowbtn">{`${e.button}`}</button>
-            </div>
+              <button id="buynowbtn" onClick={() => dispatch({ type: "Increment" })}>{`${e.button}`}</button>  
+                       
+</div>
           );
         })}
       </div>
@@ -27,5 +30,3 @@ function Button({ products }) {
   );
 }
 export default Button;
-//1. arrey of objects to store the data
-//2.import data and iterate it using map
