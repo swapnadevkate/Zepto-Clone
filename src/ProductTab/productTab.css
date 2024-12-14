@@ -1,0 +1,20 @@
+#facumakeupBox {
+  height: 400px;
+
+  width: 100%;
+  display: flex;
+}
+
+.product {
+  height: 400px;
+  width: 200px;
+  margin-left: 10px;
+}
+
+
+#pricepara {
+  word-spacing: 15px;
+}
+#pricespan {
+  text-decoration: line-through;
+}
