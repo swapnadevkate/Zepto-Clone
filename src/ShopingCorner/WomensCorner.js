@@ -27,7 +27,7 @@ import mweding from "./../Images/fb141278-29df-4dcf-9b4a-f8f4c60015e7.webp";
 import giftspecial from "./../Images/fb77320f-917d-403a-b4ae-d1135234e7cb.webp";
 
 import "./WomensCorner.css";
-import ProductTab from "../ProductTab";
+import ProductTab from "../ShoppingStore/ProductTab";
 import {
   facemakeupData,
   lipsticksData,

@@ -10,6 +10,7 @@ import ShowCartProduct from "./ShowCartProduct/ShowCartProduct";
 import DataContext from "./DataContext/DataContext";
 
 import { Route, Routes } from "react-router-dom";
+import ExploreProductList from "./ExploreProductList";
 const cartReducer = (state, action) => {
   switch (action.type) {
     case "Increment":
@@ -39,6 +40,8 @@ function App() {
             path="/ShowCartProduct/ShowCartProduct"
             element={<ShowCartProduct />}
           />
+          <Route path="/ExploreProductStore/:id" element={<ExploreProductList />} />
+
         </Routes>
       </DataContext.Provider>
     </>

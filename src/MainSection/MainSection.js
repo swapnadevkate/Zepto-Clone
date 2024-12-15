@@ -18,7 +18,7 @@ function MainSection() {
         </div>
         <div id="secondsec">
           <div class="corners">
-            <Link to="/shopingStore/WomensCorner">
+            <Link to="/shopingStore/womensStore">
               <img
                 src={wimg}
                 style={{
@@ -31,7 +31,7 @@ function MainSection() {
             </Link>
           </div>
           <div class="corners">
-            <Link to="/shopingStore/MensCorner">
+            <Link to="/shopingStore/mensStore">
               <img
                 src={mimg}
                 style={{
@@ -44,7 +44,7 @@ function MainSection() {
             </Link>
           </div>
           <div class="corners">
-            <Link to="/shopingStore/GiftingSpecials">
+            <Link to="/shopingStore/gifitingSpecialStore">
               <img
                 src={gimg}
                 style={{
