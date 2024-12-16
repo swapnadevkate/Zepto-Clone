@@ -13,7 +13,7 @@ function ProductTab({ products }) {
   };
 
   return (
-    <div id="facumakeupBox">
+    <div className="producttab">
       {products.map((productData) => {
         console.log(productData);
         return (

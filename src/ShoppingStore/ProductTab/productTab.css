@@ -1,8 +1,9 @@
-#facumakeupBox {
+.producttab{
+  background-color: aqua;
+  width: 900px;
+  margin: auto;
   height: 400px;
-
-  width: 100%;
-  display: flex;
+  margin-bottom: 20px;
 }
 
 .product {

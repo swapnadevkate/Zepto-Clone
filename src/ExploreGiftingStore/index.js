@@ -2,21 +2,21 @@ import React, { useState } from "react";
 import ProductImage from "../components/ProductImage";
 import Text from "./../components/Text";
 import { Link } from "react-router-dom";
+import './style.css'
 function ExploreGiftingStore({explores,title}) {
-  
   const divHandler = (index) => {
-  
   };
   return (
     <>
-    <div>{title}</div>
+    <div className="giftTitle">{title}</div>
+    <div className="ExploreGiftStore">
      {explores.map((data, index) => {
        return (
-          <Link to={`/ExploreProductStore/${data.id}`}>
+          <Link to={`/ExploreGiftingStore/${data.id}`}>
             <div
-            onClick={() => {
-              divHandler(index);
-            }}
+            onClick={
+              divHandler
+            } className="giftproduct"
             >
             <ProductImage src={data.giftimage} />
             <Text text={data.giftname} />
@@ -25,6 +25,7 @@ function ExploreGiftingStore({explores,title}) {
          </Link> 
         );
       })}
+      </div>
     </>
   );
 }

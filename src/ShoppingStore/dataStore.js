@@ -47,7 +47,7 @@ export const shopppingStore = {
       },
     ],
     exploreStore:{
-         title:'Explore',
+         title:'Explore gifting store',
         explores:[
             {
                 giftimage:'https://cdn.zeptonow.com/production///tr:w-309,ar-309-357,pr-true,f-auto,q-80/inventory/banner/22f8bb7f-3aec-4b32-b80e-ce793ea51b63.png',

@@ -11,6 +11,8 @@ import DataContext from "./DataContext/DataContext";
 
 import { Route, Routes } from "react-router-dom";
 import ExploreProductList from "./ExploreProductList";
+import ExploreGiftingStore from "./ExploreGiftingStore";
+import ShowPathOfExploreProductList from "./ShowPathOfExploreProductList";
 const cartReducer = (state, action) => {
   switch (action.type) {
     case "Increment":
@@ -19,7 +21,6 @@ const cartReducer = (state, action) => {
       return state;
   }
 };
-
 
 function App() {
   const InitialState = { count: 0 };
@@ -40,12 +41,11 @@ function App() {
             path="/ShowCartProduct/ShowCartProduct"
             element={<ShowCartProduct />}
           />
-          <Route path="/ExploreProductStore/:id" element={<ExploreProductList />} />
+          <Route path="/ExploreGiftingStore/:id" element={<ShowPathOfExploreProductList/>} />
 
         </Routes>
       </DataContext.Provider>
     </>
   );
 }
-
 export default App;

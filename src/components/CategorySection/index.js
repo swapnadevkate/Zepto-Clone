@@ -22,7 +22,7 @@ function CategorySection(props) {
               onClick={() => {
                 onClickHandler(index);
               }}
-              key={data.categoryId}
+              key={data.categoryId} className="imgcategory"
             >
               <ProductImage src={data.categoryimage} />
               <Text text={data.categoryName} />
