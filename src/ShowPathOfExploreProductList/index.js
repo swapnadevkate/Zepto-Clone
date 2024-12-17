@@ -5,12 +5,14 @@ import  {productListData}  from '../ProductListData'
 function ShowPathOfExploreProductList() {
     const {id}=useParams()
     const store = productListData[id]
+   
     
     
   return (
     
     <>
-<ExploreProductList products={productListData} btnText={'AddtoCart'}/>
+{/* <ExploreProductList products={productListData.boys} btnText={'AddtoCart'}/> */}
+<ExploreProductList products={store} btnText={'AddtoCart'}/>
 
     </>
   )

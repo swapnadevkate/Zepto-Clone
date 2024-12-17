@@ -14,6 +14,7 @@ import ExploreProductList from "./ExploreProductList";
 import ExploreGiftingStore from "./ExploreGiftingStore";
 import ShowPathOfExploreProductList from "./ShowPathOfExploreProductList";
 const cartReducer = (state, action) => {
+  console.log("Reducer action:", action);
   switch (action.type) {
     case "Increment":
       return { count: state.count + 1 };

@@ -12,6 +12,7 @@ import "./Navbar.css";
 function Navbar() {
   const { state, dispatch } = useContext(DataContext);
   const navigate = useNavigate();
+  console.log("Cart Count:", state.count);
   const cartHandler = () => {
     navigate("/ShowCartProduct/ShowCartProduct");
   };
@@ -49,17 +50,17 @@ function Navbar() {
         </div>
         <div
           id="cart"
-          onClick={() => {
-            dispatch({ type: "Increment" });
-            cartHandler();
-          }}
-        >
+          onClick={cartHandler}>
           <AiOutlineShoppingCart />
           <span id="cartspan">{state.count}</span>
+         
         </div>
+        
       </div>
     </>
+    
   );
+ 
 }
 
 export default Navbar;

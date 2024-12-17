@@ -15,7 +15,7 @@ function ProductTab({ products }) {
   return (
     <div className="producttab">
       {products.map((productData) => {
-        console.log(productData);
+       
         return (
           <div key={productData.id} class="product">
             <ProductSection

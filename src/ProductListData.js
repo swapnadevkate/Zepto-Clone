@@ -49,8 +49,8 @@ export const productListData = {
         }
     ]
 
-    },
-    girls:{ 
+},
+ girls:{ 
         title:'for girls',
         boysData:[
             {

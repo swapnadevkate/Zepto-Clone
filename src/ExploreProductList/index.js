@@ -10,24 +10,24 @@ import './style.css'
 
 function ExploreProductList({products,btnText}){
   const {state,dispatch} = useContext(DataContext)
-const clickHandler = (product)=>{
-  dispatch({ type: "Increment" })
-}
+
   return (
     <>
-  <div>{products.boys.title}</div>
+    
+  <div>{products.title}</div>
+  <div>count:{state.count}</div>
     <div className='ExploreProductList'>
     {
-      products.boys.boysData.map((product)=>{
+      products.boysData.map((product)=>{
            return (
-        <div className='productList' >
+        <div className='productList'  >
         
         
          <ProductImage src={product.image} style={{width:"100px"}}/>
             <Text text={product.title}/> 
             <Text text={product.quantity}/> 
             <Text text={product.price}/> 
-            <Button text={btnText} className="customBtn" onclick={()=>{clickHandler(product)}}/>
+            <Button text={btnText} className="customBtn" clickHandler={() => {dispatch({ type: "Increment" })}}/>
             </div>  
          
             )
@@ -35,7 +35,7 @@ const clickHandler = (product)=>{
        
     }
     </div>
-    <div>{state.count}</div>
+    
    </>
   )
 }
