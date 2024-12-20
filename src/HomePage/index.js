@@ -7,8 +7,13 @@ import HeroSection2 from "./../HeroImages/HeroSection2";
 import ShopSection2 from "./../ShopSection/ShopSection2";
 import NewInStore from "./../NewInStore/NewInStore";
 import GrocerryAndKitchen from "./../NewInStore/GrocerryAndKitchen";
-
+import StoredShopingDataRoute from "./../StoredShopingDataRoute";
+import { Link } from "react-router-dom";
 import './style.css'
+
+
+
+
 
 function HomePage() {
   return (
@@ -20,6 +25,12 @@ function HomePage() {
       <ShopSection2 />
       <NewInStore />
       <GrocerryAndKitchen />
+      <StoredShopingDataRoute/>
+     {/* <Link to={`/StoredShopingDataRote/snacksanddrinks`}>Go to Product 1</Link> */}
+      
+
+      
+      
     </>
   );
 }

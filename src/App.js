@@ -13,6 +13,9 @@ import { Route, Routes } from "react-router-dom";
 import ExploreProductList from "./ExploreProductList";
 import ExploreGiftingStore from "./ExploreGiftingStore";
 import ShowPathOfExploreProductList from "./ShowPathOfExploreProductList";
+import StoredShopingDataRoute from "./StoredShopingDataRoute";
+import StoredShopingDataUi from './StoredShopingDataUi'
+import SidebarParent from './SidebarParent'
 const cartReducer = (state, action) => {
   console.log("Reducer action:", action);
   switch (action.type) {
@@ -43,6 +46,8 @@ function App() {
             element={<ShowCartProduct />}
           />
           <Route path="/ExploreGiftingStore/:id" element={<ShowPathOfExploreProductList/>} />
+          <Route path="/StoredShopingDataRoute/:id" element={<SidebarParent />} />
+
 
         </Routes>
       </DataContext.Provider>

@@ -1,0 +1,44 @@
+{
+  "sidebar1":
+    [
+  
+      {
+        "img":"https://cdn.zeptonow.com/production///tr:w-400,ar-980-980,pr-true,f-auto,q-80/cms/product_variant/ed91d7de-ef46-47ad-b04d-5537bf469f9f.jpeg",
+       "id":" sidebar1",
+      "title":"sidebarCategory"
+      }  ,
+      {
+       "img":"https://cdn.zeptonow.com/production///tr:w-400,ar-980-980,pr-true,f-auto,q-80/cms/product_variant/ed91d7de-ef46-47ad-b04d-5537bf469f9f.jpeg",
+        "title":"sidebarCategory",
+       "id":"sidebar1"
+       
+      } ,
+      {
+        "img":"https://cdn.zeptonow.com/production///tr:w-400,ar-980-980,pr-true,f-auto,q-80/cms/product_variant/ed91d7de-ef46-47ad-b04d-5537bf469f9f.jpeg",
+       "title":"sidebarCategory",
+        "id":"sidebar1"
+      
+      } ,
+      {
+       "img":"https://cdn.zeptonow.com/production///tr:w-400,ar-980-980,pr-true,f-auto,q-80/cms/product_variant/ed91d7de-ef46-47ad-b04d-5537bf469f9f.jpeg",
+        "title":"sidebarCategory",
+        "id":"sidebar1"
+        
+      } 
+    ],
+ "sidebar2":[
+    {
+      "img":"https://cdn.zeptonow.com/production///tr:w-0.98,h-0.98,f-auto/cms/product_variant/981cf3d8-3887-42a3-b242-04ff9f60c50a.jpg",
+      "title":"sidebarCategory",
+       "id":"sidebar2"
+        
+    },
+    {
+      "img":"https://cdn.zeptonow.com/production///tr:w-400,ar-980-980,pr-true,f-auto,q-80/cms/product_variant/ed91d7de-ef46-47ad-b04d-5537bf469f9f.jpeg",
+      "title":"sidebarCategory",
+     "id":"sidebar2"
+      
+    }
+  ],
+  "sidebar3":[]
+}
