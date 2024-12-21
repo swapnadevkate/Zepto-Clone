@@ -1,0 +1,152 @@
+[
+    {
+        "categoryName": "Electronics",
+        "subCategories": [
+            {
+                "image": "https://picsum.photos/id/1/200/300",
+                "title": "Smartphones",
+                "id": "101"
+            },
+            {
+                "image": "https://picsum.photos/id/2/200/300",
+                "title": "Laptops",
+                "id": "102"
+            },
+            {
+                "image": "https://picsum.photos/id/3/200/300",
+                "title": "Cameras",
+                "id": "103"
+            },
+            {
+                "image": "https://picsum.photos/id/4/200/300",
+                "title": "Headphones",
+                "id": "104"
+            },
+            {
+                "image": "https://picsum.photos/id/5/200/300",
+                "title": "Smartwatches",
+                "id": "105"
+            }
+        ]
+    },
+    {
+        "categoryName": "Fashion",
+        "subCategories": [
+            {
+                "image": "https://picsum.photos/id/6/200/300",
+                "title": "Men's Clothing",
+                "id": "201"
+            },
+            {
+                "image": "https://picsum.photos/id/7/200/300",
+                "title": "Women's Clothing",
+                "id": "202"
+            },
+            {
+                "image": "https://picsum.photos/id/8/200/300",
+                "title": "Kids' Wear",
+                "id": "203"
+            },
+            {
+                "image": "https://picsum.photos/id/9/200/300",
+                "title": "Shoes",
+                "id": "204"
+            },
+            {
+                "image": "https://picsum.photos/id/10/200/300",
+                "title": "Accessories",
+                "id": "205"
+            }
+        ]
+    },
+    {
+        "categoryName": "Home Appliances",
+        "subCategories": [
+            {
+                "image": "https://picsum.photos/id/11/200/300",
+                "title": "Refrigerators",
+                "id": "301"
+            },
+            {
+                "image": "https://picsum.photos/id/12/200/300",
+                "title": "Washing Machines",
+                "id": "302"
+            },
+            {
+                "image": "https://picsum.photos/id/13/200/300",
+                "title": "Microwave Ovens",
+                "id": "303"
+            },
+            {
+                "image": "https://picsum.photos/id/14/200/300",
+                "title": "Air Conditioners",
+                "id": "304"
+            },
+            {
+                "image": "https://picsum.photos/id/15/200/300",
+                "title": "Vacuum Cleaners",
+                "id": "305"
+            }
+        ]
+    },
+    {
+        "categoryName": "Books",
+        "subCategories": [
+            {
+                "image": "https://picsum.photos/id/16/200/300",
+                "title": "Fiction",
+                "id": "401"
+            },
+            {
+                "image": "https://picsum.photos/id/17/200/300",
+                "title": "Non-Fiction",
+                "id": "402"
+            },
+            {
+                "image": "https://picsum.photos/id/18/200/300",
+                "title": "Science Fiction",
+                "id": "403"
+            },
+            {
+                "image": "https://picsum.photos/id/19/200/300",
+                "title": "Biographies",
+                "id": "404"
+            },
+            {
+                "image": "https://picsum.photos/id/20/200/300",
+                "title": "Comics",
+                "id": "405"
+            }
+        ]
+    },
+    {
+        "categoryName": "Sports & Outdoors",
+        "subCategories": [
+            {
+                "image": "https://picsum.photos/id/21/200/300",
+                "title": "Camping Gear",
+                "id": "501"
+            },
+            {
+                "image": "https://picsum.photos/id/22/200/300",
+                "title": "Fitness Equipment",
+                "id": "502"
+            },
+            {
+                "image": "https://picsum.photos/id/23/200/300",
+                "title": "Bicycles",
+                "id": "503"
+            },
+            {
+                "image": "https://picsum.photos/id/24/200/300",
+                "title": "Fishing Gear",
+                "id": "504"
+            },
+            {
+                "image": "https://picsum.photos/id/25/200/300",
+                "title": "Outdoor Clothing",
+                "id": "505"
+            }
+        ]
+    }
+]

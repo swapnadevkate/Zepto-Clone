@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import ProductImage from "../ProductImage";
-import ProductTab from "../../ShoppingStore/ProductTab";
+import ProductTab from "../../components/ProductTab";
 import Text from "../Text";
 
 import "./style.css";

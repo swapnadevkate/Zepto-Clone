@@ -1,0 +1,7 @@
+.shopingProducts{
+  display: flex;
+  margin-top: 20px;
+}
+.shopingproduct{
+    margin-left: 10px;
+}
