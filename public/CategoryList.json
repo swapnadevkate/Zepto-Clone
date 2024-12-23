@@ -26,6 +26,16 @@
                 "image": "https://picsum.photos/id/5/200/300",
                 "title": "Smartwatches",
                 "id": "105"
+            },
+            {
+                "image": "https://picsum.photos/id/4/200/300",
+                "title": "Headphones",
+                "id": "104"
+            },
+            {
+                "image": "https://picsum.photos/id/5/200/300",
+                "title": "Smartwatches",
+                "id": "105"
             }
         ]
     },
@@ -56,6 +66,15 @@
                 "image": "https://picsum.photos/id/10/200/300",
                 "title": "Accessories",
                 "id": "205"
+            }, {
+                "image": "https://picsum.photos/id/9/200/300",
+                "title": "Shoes",
+                "id": "204"
+            },
+            {
+                "image": "https://picsum.photos/id/10/200/300",
+                "title": "Accessories",
+                "id": "205"
             }
         ]
     },
@@ -76,6 +95,16 @@
                 "image": "https://picsum.photos/id/13/200/300",
                 "title": "Microwave Ovens",
                 "id": "303"
+            },
+            {
+                "image": "https://picsum.photos/id/14/200/300",
+                "title": "Air Conditioners",
+                "id": "304"
+            },
+            {
+                "image": "https://picsum.photos/id/15/200/300",
+                "title": "Vacuum Cleaners",
+                "id": "305"
             },
             {
                 "image": "https://picsum.photos/id/14/200/300",
@@ -116,6 +145,16 @@
                 "image": "https://picsum.photos/id/20/200/300",
                 "title": "Comics",
                 "id": "405"
+            },
+            {
+                "image": "https://picsum.photos/id/19/200/300",
+                "title": "Biographies",
+                "id": "404"
+            },
+            {
+                "image": "https://picsum.photos/id/20/200/300",
+                "title": "Comics",
+                "id": "405"
             }
         ]
     },
@@ -136,6 +175,16 @@
                 "image": "https://picsum.photos/id/23/200/300",
                 "title": "Bicycles",
                 "id": "503"
+            },
+            {
+                "image": "https://picsum.photos/id/24/200/300",
+                "title": "Fishing Gear",
+                "id": "504"
+            },
+            {
+                "image": "https://picsum.photos/id/25/200/300",
+                "title": "Outdoor Clothing",
+                "id": "505"
             },
             {
                 "image": "https://picsum.photos/id/24/200/300",

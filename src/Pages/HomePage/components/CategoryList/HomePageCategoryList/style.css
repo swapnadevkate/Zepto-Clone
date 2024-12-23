@@ -1,0 +1,14 @@
+.GroceryAndKitchenProducts{
+  
+}
+.GroceryAndKitchen{
+   margin-left: 20px; 
+}
+.productsDiv{
+    display: flex;
+    
+}
+.imgProduct{
+    margin-left: 20px;
+    text-align: center;
+}

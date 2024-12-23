@@ -1,0 +1,37 @@
+.overallData {
+    margin: auto;
+    width: 1000px;
+}
+.datalist{
+    display: flex;
+    width: 1000px;
+
+}
+.categoryDataDiv{
+    height: 300px;
+    position: absolute;
+   
+}
+.categoryData {
+    width: 140px;
+    display: flex;
+    height: 100px;
+   
+    
+}
+
+.subCategoryData {
+    width: 1000px; 
+    margin-left: 150px;
+    display: flex;
+    justify-content: space-between; 
+    height: auto; 
+}
+
+.actualproducts {
+    height: auto; 
+    position: relative;
+    width: 200px; 
+   
+   
+}

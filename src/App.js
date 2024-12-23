@@ -8,6 +8,8 @@ import DataContext from "./context//DataContext/DataContext";
 import { Route, Routes } from "react-router-dom";
 import ShowPathOfExploreProductList from "./ExploreGiftingStore/ShowPathOfExploreProductList";
 import SidebarParent from "./GroceryAndKitchen/SidebarParent";
+import HomePageRouteCategoryList from "./Pages/HomePage/components/CategoryList/HomePageRouteCategoryList";
+
 const cartReducer = (state, action) => {
   console.log("Reducer action:", action);
   switch (action.type) {
@@ -31,6 +33,7 @@ function App() {
           <Route path="/ShowCartProduct/ShowCartProduct" element={<ShowCartProduct />}/>
           <Route path="/ExploreGiftingStore/:id" element={<ShowPathOfExploreProductList />}/>
           <Route path="/ProductsRoute/:id" element={<SidebarParent />} />
+          <Route path="/HomePageCategoryList/:id" element={<HomePageRouteCategoryList/>}/>
         </Routes>
       </DataContext.Provider>
     </>

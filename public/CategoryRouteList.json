@@ -1,0 +1,243 @@
+[
+    {
+      "categoryname": "Coffee",
+      "CategoryImage": "https://upload.wikimedia.org/wikipedia/commons/4/45/A_small_cup_of_coffee.JPG",
+      "subCategories": [
+        {
+          "image": "https://upload.wikimedia.org/wikipedia/commons/4/45/A_small_cup_of_coffee.JPG",
+          "para": "Rich and bold espresso.",
+          "quantity": "1 cup",
+          "price": "2.50"
+        },
+        {
+          "image": "https://upload.wikimedia.org/wikipedia/commons/0/00/Cappuccino_with_heart.jpg",
+          "para": "Classic cappuccino with foam.",
+          "quantity": "1 cup",
+          "price": "3.00"
+        },
+        {
+          "image": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Cafe_Latte.JPG",
+          "para": "Smooth latte with milk.",
+          "quantity": "1 cup",
+          "price": "3.50"
+        },
+        {
+          "image": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Mocha_coffee.jpg",
+          "para": "Chocolate-flavored mocha.",
+          "quantity": "1 cup",
+          "price": "4.00"
+        },
+        {
+          "image": "https://upload.wikimedia.org/wikipedia/commons/8/89/Americano_Coffee_2.jpg",
+          "para": "Simple and strong Americano.",
+          "quantity": "1 cup",
+          "price": "2.00"
+        },
+        {
+          "image": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Macchiato.jpg",
+          "para": "Macchiato with a hint of milk.",
+          "quantity": "1 cup",
+          "price": "3.75"
+        },
+        {
+          "image": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Flat_white_coffee_with_foam.jpg",
+          "para": "Creamy flat white.",
+          "quantity": "1 cup",
+          "price": "3.25"
+        }
+      ]
+    },
+    {
+      "categoryname": "Tea",
+      "CategoryImage": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Tea_cup.jpg",
+      "subCategories": [
+        {
+          "image": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Green_tea_brewed_leaves.jpg",
+          "para": "Refreshing green tea.",
+          "quantity": "1 cup",
+          "price": "2.00"
+        },
+        {
+          "image": "https://upload.wikimedia.org/wikipedia/commons/0/03/Black_tea.jpg",
+          "para": "Bold black tea.",
+          "quantity": "1 cup",
+          "price": "2.50"
+        },
+        {
+          "image": "https://upload.wikimedia.org/wikipedia/commons/1/14/Chai_tea_latte.jpg",
+          "para": "Spiced Indian chai.",
+          "quantity": "1 cup",
+          "price": "3.00"
+        },
+        {
+          "image": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Herbal_tea.jpg",
+          "para": "Soothing herbal tea.",
+          "quantity": "1 cup",
+          "price": "2.75"
+        },
+        {
+          "image": "https://upload.wikimedia.org/wikipedia/commons/5/51/Oolong_tea.jpg",
+          "para": "Smooth oolong tea.",
+          "quantity": "1 cup",
+          "price": "3.25"
+        },
+        {
+          "image": "https://upload.wikimedia.org/wikipedia/commons/9/92/White_tea.jpg",
+          "para": "Delicate white tea.",
+          "quantity": "1 cup",
+          "price": "3.50"
+        },
+        {
+          "image": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Matcha_Tea.jpg",
+          "para": "Vibrant matcha tea.",
+          "quantity": "1 cup",
+          "price": "4.00"
+        }
+      ]
+    },
+    {
+      "categoryname": "Juices",
+      "CategoryImage": "https://upload.wikimedia.org/wikipedia/commons/1/12/Freshly_squeezed_orange_juice.jpg",
+      "subCategories": [
+        {
+          "image": "https://upload.wikimedia.org/wikipedia/commons/1/12/Freshly_squeezed_orange_juice.jpg",
+          "para": "Fresh orange juice.",
+          "quantity": "1 glass",
+          "price": "2.50"
+        },
+        {
+          "image": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Apple_juice_in_a_glass.jpg",
+          "para": "Sweet apple juice.",
+          "quantity": "1 glass",
+          "price": "3.00"
+        },
+        {
+          "image": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Mixed_berry_smoothie.jpg",
+          "para": "Mixed berry juice.",
+          "quantity": "1 glass",
+          "price": "3.75"
+        },
+        {
+          "image": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Carrot_juice.jpg",
+          "para": "Healthy carrot juice.",
+          "quantity": "1 glass",
+          "price": "3.25"
+        },
+        {
+          "image": "https://upload.wikimedia.org/wikipedia/commons/8/80/Watermelon_juice.jpg",
+          "para": "Refreshing watermelon juice.",
+          "quantity": "1 glass",
+          "price": "3.50"
+        },
+        {
+          "image": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Pineapple_Juice.jpg",
+          "para": "Tropical pineapple juice.",
+          "quantity": "1 glass",
+          "price": "3.75"
+        },
+        {
+          "image": "https://upload.wikimedia.org/wikipedia/commons/9/91/Mango_juice.jpg",
+          "para": "Delicious mango juice.",
+          "quantity": "1 glass",
+          "price": "4.00"
+        }
+      ]
+    },
+    {
+      "categoryname": "Smoothies",
+      "CategoryImage": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Smoothie_with_berry_garnish.jpg",
+      "subCategories": [
+        {
+          "image": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Smoothie_with_berry_garnish.jpg",
+          "para": "Strawberry smoothie.",
+          "quantity": "1 glass",
+          "price": "4.50"
+        },
+        {
+          "image": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Banana_smoothie.jpg",
+          "para": "Banana smoothie.",
+          "quantity": "1 glass",
+          "price": "4.00"
+        },
+        {
+          "image": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Avocado_smoothie.jpg",
+          "para": "Creamy avocado smoothie.",
+          "quantity": "1 glass",
+          "price": "4.75"
+        },
+        {
+          "image": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Mixed_berry_smoothie_in_a_glass.jpg",
+          "para": "Mixed berry smoothie.",
+          "quantity": "1 glass",
+          "price": "4.50"
+        },
+        {
+          "image": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Green_smoothie.jpg",
+          "para": "Healthy green smoothie.",
+          "quantity": "1 glass",
+          "price": "4.25"
+        },
+        {
+          "image": "https://upload.wikimedia.org/wikipedia/commons/7/71/Chocolate_smoothie.jpg",
+          "para": "Chocolate smoothie.",
+          "quantity": "1 glass",
+          "price": "5.00"
+        },
+        {
+          "image": "https://upload.wikimedia.org/wikipedia/commons/8/83/Protein_smoothie.jpg",
+          "para": "Protein-packed smoothie.",
+          "quantity": "1 glass",
+          "price": "5.50"
+        }
+      ]
+    },
+    {
+      "categoryname": "Snacks",
+      "CategoryImage": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Assorted_cookies.jpg",
+      "subCategories": [
+        {
+          "image": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Assorted_cookies.jpg",
+          "para": "Freshly baked cookies.",
+          "quantity": "1 piece",
+          "price": "1.50"
+        },
+        {
+          "image": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Chocolate_chip_muffins.jpg",
+          "para": "Delicious muffins.",
+          "quantity": "1 piece",
+          "price": "2.00"
+        },
+        {
+          "image": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Sandwich_with_tomatoes.jpg",
+          "para": "Classic sandwich.",
+          "quantity": "1 piece",
+          "price": "3.50"
+        },
+        {
+          "image": "https://upload.wikimedia.org/wikipedia/commons/6/67/Croissant.jpg",
+          "para": "Buttery croissant.",
+          "quantity": "1 piece",
+          "price": "2.75"
+        },
+        {
+          "image": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Pastries.jpg",
+          "para": "Assorted pastries.",
+          "quantity": "1 piece",
+          "price": "3.25"
+        },
+        {
+          "image": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Brownie_on_plate.jpg",
+          "para": "Rich chocolate brownie.",
+          "quantity": "1 piece",
+          "price": "3.00"
+        },
+        {
+          "image": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Potato_chips.jpg",
+          "para": "Crunchy potato chips.",
+          "quantity": "1 pack",
+          "price": "2.50"
+        }
+      ]
+    }
+  ]
+  

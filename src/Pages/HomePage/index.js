@@ -5,6 +5,7 @@ import ShopSection from "./components/ShopSection/ShopSection";
 import HeroSection2 from "./components/HeroImages/HeroSection2";
 import ShopSection2 from "./components/ShopSection/ShopSection2";
 import StoredShopingDataRoute from "../../GroceryAndKitchen/ProductsRoute";
+import HomePageCategoryList from "./components/CategoryList/HomePageCategoryList"
 import "./style.css";
 
 function HomePage() {
@@ -16,6 +17,7 @@ function HomePage() {
       <HeroSection2 />
       <ShopSection2 />
       <StoredShopingDataRoute />
+      <HomePageCategoryList/>
     </>
   );
 }
