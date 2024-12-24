@@ -1,7 +1,7 @@
 [
     {
         "categoryName": "Electronics",
-        "subCategories": [
+        "subbCategories": [
             {
                 "image": "https://picsum.photos/id/1/200/300",
                 "title": "Smartphones",
@@ -30,18 +30,18 @@
             {
                 "image": "https://picsum.photos/id/4/200/300",
                 "title": "Headphones",
-                "id": "104"
+                "id": "106"
             },
             {
                 "image": "https://picsum.photos/id/5/200/300",
                 "title": "Smartwatches",
-                "id": "105"
+                "id": "107"
             }
         ]
     },
     {
         "categoryName": "Fashion",
-        "subCategories": [
+        "subbCategories": [
             {
                 "image": "https://picsum.photos/id/6/200/300",
                 "title": "Men's Clothing",
@@ -80,7 +80,7 @@
     },
     {
         "categoryName": "Home Appliances",
-        "subCategories": [
+        "subbCategories": [
             {
                 "image": "https://picsum.photos/id/11/200/300",
                 "title": "Refrigerators",
@@ -120,7 +120,7 @@
     },
     {
         "categoryName": "Books",
-        "subCategories": [
+        "subbCategories": [
             {
                 "image": "https://picsum.photos/id/16/200/300",
                 "title": "Fiction",
@@ -160,7 +160,7 @@
     },
     {
         "categoryName": "Sports & Outdoors",
-        "subCategories": [
+        "subbCategories": [
             {
                 "image": "https://picsum.photos/id/21/200/300",
                 "title": "Camping Gear",
@@ -189,12 +189,12 @@
             {
                 "image": "https://picsum.photos/id/24/200/300",
                 "title": "Fishing Gear",
-                "id": "504"
+                "id": "506"
             },
             {
                 "image": "https://picsum.photos/id/25/200/300",
                 "title": "Outdoor Clothing",
-                "id": "505"
+                "id": "507"
             }
         ]
     }

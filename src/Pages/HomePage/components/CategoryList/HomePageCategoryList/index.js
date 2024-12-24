@@ -17,6 +17,7 @@ function HomePageCategoryList() {
     <div className='GroceryAndKitchenProducts'>
     {
       groceryImg.map((product)=>{
+        
 
       return (
         <div className='GroceryAndKitchen'>
@@ -25,7 +26,8 @@ function HomePageCategoryList() {
       <div className='productsDiv'>
       {
         
-        product.subCategories.map((subProduct)=>{
+        product.subbCategories.map((subProduct)=>{
+          console.log("json data is ",subProduct)
           return(
             
            

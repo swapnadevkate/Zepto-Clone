@@ -1,23 +1,28 @@
 .overallData {
     margin: auto;
     width: 1000px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
 .datalist{
     display: flex;
+    flex-direction: column;
     width: 1000px;
 
 }
 .categoryDataDiv{
-    height: 300px;
+    margin-top: 50px;
+    height: 400px;
     position: absolute;
+    
    
 }
 .categoryData {
-    width: 140px;
+    width: 150px;
     display: flex;
-    height: 100px;
-   
-    
+    height: 50px;
+  
 }
 
 .subCategoryData {

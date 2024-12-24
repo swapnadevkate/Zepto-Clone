@@ -1,0 +1,5 @@
+.subCategoryData{
+    
+    display: flex;
+    flex-wrap: wrap;
+}
