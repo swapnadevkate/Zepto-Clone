@@ -1,5 +1,5 @@
 import React, { useContext } from "react";
-import logo from "../../Images/1_pLWzkNcNhYhL-QvpjOwvAg.jpg";
+
 import { AiOutlineMonitor } from "react-icons/ai";
 import { BiUserCircle } from "react-icons/bi";
 import { AiOutlineShoppingCart } from "react-icons/ai";
@@ -20,7 +20,7 @@ function Navbar() {
     <>
       <div id="navbar">
         <div id="nav-logo">
-          <img src={logo} style={{ height: "60px", width: "140px" }}></img>
+          <img src={'/Images/1_pLWzkNcNhYhL-QvpjOwvAg.jpg'} style={{ height: "60px", width: "140px" }}></img>
         </div>
         <div id="localtion">
           <div id="dtime">

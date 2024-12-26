@@ -9,7 +9,7 @@ function ProductSection(props) {
 
   return (
     <>
-    <div className="productSection">
+    <div className="productSection " >
       <ProductImage src={productData.imgUrl} />
       <Text text={productData.para} textFont="bold" />
       <Text text={productData.quantity} />

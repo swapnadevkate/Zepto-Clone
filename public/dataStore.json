@@ -1,0 +1,725 @@
+{
+  "womensStore": {
+    "hemorImageUrl": "/Images/3e269f2a-3ca1-46cf-9790-9c0d34cbb0c7.webp",
+    "recommendedProducts": [
+      {
+        "imgUrl": "https://cdn.zeptonow.com/production///tr:w-400,ar-2000-2000,pr-true,f-auto,q-80/cms/product_variant/bf854196-3679-49e4-a71a-04ac65acf0c1.jpeg",
+        "title": "Uno Flip Playing Card",
+        "quantity": "1 piece",
+        "price": "170"
+      },
+      {
+        "imgUrl": "https://picsum.photos/id/237/200/300",
+        "title": "Apple",
+        "quantity": "5",
+        "price": "3.00"
+    },
+    {
+        "imgUrl": "https://picsum.photos/seed/picsum/200/300",
+        "title": "Banana",
+        "quantity": "10",
+        "price": "1.50"
+    },
+    {
+        "imgUrl": "https://upload.wikimedia.org/wikipedia/commons/3/36/Kyoho-grape.jpg",
+        "title": "Grapes",
+        "quantity": "2",
+        "price": "4.00"
+    },
+    {
+        "imgUrl": "https://upload.wikimedia.org/wikipedia/commons/9/90/Hapus_Mango.jpg",
+        "title": "Mango",
+        "quantity": "7",
+        "price": "2.50"
+    },
+    {
+        "imgUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Orange-Whole-%26-Split.jpg",
+        "title": "Orange",
+        "quantity": "8",
+        "price": "3.20"
+    },
+    {
+        "imgUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Pineapple_and_cross_section.jpg",
+        "title": "Pineapple",
+        "quantity": "1",
+        "price": "5.00"
+    }
+],
+    "productsByCategory": [
+      {
+        "categoryName": "CardGames",
+        "categoryId": 123,
+        "categoryimage": "https://cdn.zeptonow.com/production///tr:w-1280,ar-186-186,pr-true,f-auto,q-80/inventory/banner/be8c65b3-a144-430e-a581-34b1c4a6acae.png",
+        "products": [
+          {
+            "imgUrl": "https://cdn.zeptonow.com/production///tr:w-350,ar-1000-1000,pr-true,f-auto,q-80/cms/product_variant/d8c16906-f376-4876-bb34-e6e9d78b19ef.jpeg",
+            "title": "Parksons Bicycle Standard Rider Back Playing Cards - Assorted",
+            "quantity": "1 piece",
+            "price": "294"
+          },
+          {
+            "imgUrl": "https://cdn.zeptonow.com/production///tr:w-350,ar-1000-1000,pr-true,f-auto,q-80/cms/product_variant/d8c16906-f376-4876-bb34-e6e9d78b19ef.jpeg",
+            "title": "Parksons Bicycle Standard Rider Back Playing Cards - Assorted",
+            "quantity": "1 piece",
+            "price": "294"
+          },
+          {
+            "imgUrl": "https://cdn.zeptonow.com/production///tr:w-350,ar-1000-1000,pr-true,f-auto,q-80/cms/product_variant/d8c16906-f376-4876-bb34-e6e9d78b19ef.jpeg",
+            "title": "Parksons Bicycle Standard Rider Back Playing Cards - Assorted",
+            "quantity": "1 piece",
+            "price": "294"
+          },
+          {
+            "imgUrl": "https://cdn.zeptonow.com/production///tr:w-350,ar-1000-1000,pr-true,f-auto,q-80/cms/product_variant/d8c16906-f376-4876-bb34-e6e9d78b19ef.jpeg",
+            "title": "Parksons Bicycle Standard Rider Back Playing Cards - Assorted",
+            "quantity": "1 piece",
+            "price": "294"
+          },
+          {
+            "imgUrl": "https://cdn.zeptonow.com/production///tr:w-350,ar-1000-1000,pr-true,f-auto,q-80/cms/product_variant/d8c16906-f376-4876-bb34-e6e9d78b19ef.jpeg",
+            "title": "Parksons Bicycle Standard Rider Back Playing Cards - Assorted",
+            "quantity": "1 piece",
+            "price": "294"
+          },
+          {
+            "imgUrl": "https://cdn.zeptonow.com/production///tr:w-350,ar-1000-1000,pr-true,f-auto,q-80/cms/product_variant/d8c16906-f376-4876-bb34-e6e9d78b19ef.jpeg",
+            "title": "Parksons Bicycle Standard Rider Back Playing Cards - Assorted",
+            "quantity": "1 piece",
+            "price": "294"
+          }
+        ]
+      },
+      {
+        "categoryName": "Board Games",
+        "categoryId": 1234,
+        "categoryimage": "https://cdn.zeptonow.com/production///tr:w-1280,ar-186-186,pr-true,f-auto,q-80/inventory/banner/be8c65b3-a144-430e-a581-34b1c4a6acae.png",
+        "products": [
+          {
+            "imgUrl": "https://cdn.zeptonow.com/production///tr:w-350,ar-2000-2000,pr-true,f-auto,q-80/cms/product_variant/5109d9f1-b77d-40e2-a36e-42c72b2042a3.jpeg",
+            "title": "Parksons Bicycle Standard Rider Back Playing Cards - Assorted",
+            "quantity": "2 piece",
+            "price": "100"
+          },
+          {
+            "imgUrl": "https://cdn.zeptonow.com/production///tr:w-350,ar-2000-2000,pr-true,f-auto,q-80/cms/product_variant/5109d9f1-b77d-40e2-a36e-42c72b2042a3.jpeg",
+            "title": "Parksons Bicycle Standard Rider Back Playing Cards - Assorted",
+            "quantity": "2 piece",
+            "price": "100"
+          },
+          {
+            "imgUrl": "https://cdn.zeptonow.com/production///tr:w-350,ar-2000-2000,pr-true,f-auto,q-80/cms/product_variant/5109d9f1-b77d-40e2-a36e-42c72b2042a3.jpeg",
+            "title": "Parksons Bicycle Standard Rider Back Playing Cards - Assorted",
+            "quantity": "2 piece",
+            "price": "100"
+          },
+          {
+            "imgUrl": "https://cdn.zeptonow.com/production///tr:w-350,ar-2000-2000,pr-true,f-auto,q-80/cms/product_variant/5109d9f1-b77d-40e2-a36e-42c72b2042a3.jpeg",
+            "title": "Parksons Bicycle Standard Rider Back Playing Cards - Assorted",
+            "quantity": "2 piece",
+            "price": "100"
+          },
+          {
+            "imgUrl": "https://cdn.zeptonow.com/production///tr:w-350,ar-2000-2000,pr-true,f-auto,q-80/cms/product_variant/5109d9f1-b77d-40e2-a36e-42c72b2042a3.jpeg",
+            "title": "Parksons Bicycle Standard Rider Back Playing Cards - Assorted",
+            "quantity": "2 piece",
+            "price": "100"
+          },
+          {
+            "imgUrl": "https://cdn.zeptonow.com/production///tr:w-350,ar-2000-2000,pr-true,f-auto,q-80/cms/product_variant/5109d9f1-b77d-40e2-a36e-42c72b2042a3.jpeg",
+            "title": "Parksons Bicycle Standard Rider Back Playing Cards - Assorted",
+            "quantity": "2 piece",
+            "price": "100"
+          }
+        ]
+      },
+      {
+        "categoryName": "chess Games",
+        "categoryId": 1235,
+        "categoryimage": "https://cdn.zeptonow.com/production///tr:w-1280,ar-186-186,pr-true,f-auto,q-80/inventory/banner/be8c65b3-a144-430e-a581-34b1c4a6acae.png",
+        "products": [
+          {
+            "imgUrl": "https://cdn.zeptonow.com/production///tr:w-350,ar-2000-2000,pr-true,f-auto,q-80/cms/product_variant/5109d9f1-b77d-40e2-a36e-42c72b2042a3.jpeg",
+            "title": "Parksons Bicycle Standard Rider Back Playing Cards - Assorted",
+            "quantity": "2 piece",
+            "price": "100"
+          },
+          {
+            "imgUrl": "https://cdn.zeptonow.com/production///tr:w-350,ar-2000-2000,pr-true,f-auto,q-80/cms/product_variant/5109d9f1-b77d-40e2-a36e-42c72b2042a3.jpeg",
+            "title": "Parksons Bicycle Standard Rider Back Playing Cards - Assorted",
+            "quantity": "2 piece",
+            "price": "100"
+          },
+          {
+            "imgUrl": "https://cdn.zeptonow.com/production///tr:w-350,ar-2000-2000,pr-true,f-auto,q-80/cms/product_variant/5109d9f1-b77d-40e2-a36e-42c72b2042a3.jpeg",
+            "title": "Parksons Bicycle Standard Rider Back Playing Cards - Assorted",
+            "quantity": "2 piece",
+            "price": "100"
+          },
+          {
+            "imgUrl": "https://cdn.zeptonow.com/production///tr:w-350,ar-2000-2000,pr-true,f-auto,q-80/cms/product_variant/5109d9f1-b77d-40e2-a36e-42c72b2042a3.jpeg",
+            "title": "Parksons Bicycle Standard Rider Back Playing Cards - Assorted",
+            "quantity": "2 piece",
+            "price": "100"
+          },
+          {
+            "imgUrl": "https://cdn.zeptonow.com/production///tr:w-350,ar-2000-2000,pr-true,f-auto,q-80/cms/product_variant/5109d9f1-b77d-40e2-a36e-42c72b2042a3.jpeg",
+            "title": "Parksons Bicycle Standard Rider Back Playing Cards - Assorted",
+            "quantity": "2 piece",
+            "price": "100"
+          },
+          {
+            "imgUrl": "https://cdn.zeptonow.com/production///tr:w-350,ar-2000-2000,pr-true,f-auto,q-80/cms/product_variant/5109d9f1-b77d-40e2-a36e-42c72b2042a3.jpeg",
+            "title": "Parksons Bicycle Standard Rider Back Playing Cards - Assorted",
+            "quantity": "2 piece",
+            "price": "100"
+          }
+        ]
+      },
+      {
+        "categoryName": "tennis Games",
+        "categoryId": 1236,
+        "categoryimage": "https://cdn.zeptonow.com/production///tr:w-1280,ar-186-186,pr-true,f-auto,q-80/inventory/banner/be8c65b3-a144-430e-a581-34b1c4a6acae.png",
+        "products": [
+          {
+            "imgUrl": "https://cdn.zeptonow.com/production///tr:w-350,ar-2000-2000,pr-true,f-auto,q-80/cms/product_variant/5109d9f1-b77d-40e2-a36e-42c72b2042a3.jpeg",
+            "title": "Parksons Bicycle Standard Rider Back Playing Cards - Assorted",
+            "quantity": "2 piece",
+            "price": "100"
+          },
+          {
+            "imgUrl": "https://cdn.zeptonow.com/production///tr:w-350,ar-2000-2000,pr-true,f-auto,q-80/cms/product_variant/5109d9f1-b77d-40e2-a36e-42c72b2042a3.jpeg",
+            "title": "Parksons Bicycle Standard Rider Back Playing Cards - Assorted",
+            "quantity": "2 piece",
+            "price": "100"
+          },
+          {
+            "imgUrl": "https://cdn.zeptonow.com/production///tr:w-350,ar-2000-2000,pr-true,f-auto,q-80/cms/product_variant/5109d9f1-b77d-40e2-a36e-42c72b2042a3.jpeg",
+            "title": "Parksons Bicycle Standard Rider Back Playing Cards - Assorted",
+            "quantity": "2 piece",
+            "price": "100"
+          },
+          {
+            "imgUrl": "https://cdn.zeptonow.com/production///tr:w-350,ar-2000-2000,pr-true,f-auto,q-80/cms/product_variant/5109d9f1-b77d-40e2-a36e-42c72b2042a3.jpeg",
+            "title": "Parksons Bicycle Standard Rider Back Playing Cards - Assorted",
+            "quantity": "2 piece",
+            "price": "100"
+          },
+          {
+            "imgUrl": "https://cdn.zeptonow.com/production///tr:w-350,ar-2000-2000,pr-true,f-auto,q-80/cms/product_variant/5109d9f1-b77d-40e2-a36e-42c72b2042a3.jpeg",
+            "title": "Parksons Bicycle Standard Rider Back Playing Cards - Assorted",
+            "quantity": "2 piece",
+            "price": "100"
+          },
+          {
+            "imgUrl": "https://cdn.zeptonow.com/production///tr:w-350,ar-2000-2000,pr-true,f-auto,q-80/cms/product_variant/5109d9f1-b77d-40e2-a36e-42c72b2042a3.jpeg",
+            "title": "Parksons Bicycle Standard Rider Back Playing Cards - Assorted",
+            "quantity": "2 piece",
+            "price": "100"
+          }
+        ]
+      }
+    ],
+    "exploreStore": {
+      "title": "Explore gifting store",
+      "explores": [
+        {
+          "giftimage": "https://cdn.zeptonow.com/production///tr:w-309,ar-309-357,pr-true,f-auto,q-80/inventory/banner/22f8bb7f-3aec-4b32-b80e-ce793ea51b63.png",
+          "giftname": "For Boys",
+          "id": "boys"
+        },
+        {
+          "giftimage": "https://cdn.zeptonow.com/production///tr:w-309,ar-309-357,pr-true,f-auto,q-80/inventory/banner/833635e0-f3fe-4307-a6b8-74119cceb3b5.png",
+          "giftname": "For Girls",
+          "id": "girls"
+        },
+        {
+          "giftimage": "https://cdn.zeptonow.com/production///tr:w-309,ar-309-357,pr-true,f-auto,q-80/inventory/banner/a33d4df0-07ee-45a7-8385-c08555592a37.png",
+          "giftname": "For Grownups",
+          "id": "gift"
+        }
+      ]
+    }
+  },
+  "mensStore": {
+    "hemorImageUrl": "/Images/fb141278-29df-4dcf-9b4a-f8f4c60015e7.webp",
+    "recommendedProducts": [
+      {
+        "imgUrl": "https://cdn.zeptonow.com/production///tr:w-400,ar-2000-2000,pr-true,f-auto,q-80/cms/product_variant/bf854196-3679-49e4-a71a-04ac65acf0c1.jpeg",
+        "title": "Uno Flip Playing Card",
+        "quantity": "1 piece",
+        "price": "170"
+      },
+      {
+        "imgUrl": "https://picsum.photos/id/237/200/300",
+        "title": "Apple",
+        "quantity": "5",
+        "price": "3.00"
+    },
+    {
+        "imgUrl": "https://picsum.photos/seed/picsum/200/300",
+        "title": "Banana",
+        "quantity": "10",
+        "price": "1.50"
+    },
+    {
+        "imgUrl": "https://upload.wikimedia.org/wikipedia/commons/3/36/Kyoho-grape.jpg",
+        "title": "Grapes",
+        "quantity": "2",
+        "price": "4.00"
+    },
+    {
+        "imgUrl": "https://upload.wikimedia.org/wikipedia/commons/9/90/Hapus_Mango.jpg",
+        "title": "Mango",
+        "quantity": "7",
+        "price": "2.50"
+    },
+    {
+        "imgUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Orange-Whole-%26-Split.jpg",
+        "title": "Orange",
+        "quantity": "8",
+        "price": "3.20"
+    },
+    {
+        "imgUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Pineapple_and_cross_section.jpg",
+        "title": "Pineapple",
+        "quantity": "1",
+        "price": "5.00"
+    }
+    ],
+    "productsByCategory": [
+      {
+        "categoryName": "CardGames",
+        "categoryId": 123,
+        "categoryimage": "https://cdn.zeptonow.com/production///tr:w-1280,ar-186-186,pr-true,f-auto,q-80/inventory/banner/be8c65b3-a144-430e-a581-34b1c4a6acae.png",
+        "products": [
+          {
+            "imgUrl": "https://cdn.zeptonow.com/production///tr:w-350,ar-1000-1000,pr-true,f-auto,q-80/cms/product_variant/d8c16906-f376-4876-bb34-e6e9d78b19ef.jpeg",
+            "title": "Parksons Bicycle Standard Rider Back Playing Cards - Assorted",
+            "quantity": "1 piece",
+            "price": "294"
+          },
+          {
+            "imgUrl": "https://cdn.zeptonow.com/production///tr:w-350,ar-1000-1000,pr-true,f-auto,q-80/cms/product_variant/d8c16906-f376-4876-bb34-e6e9d78b19ef.jpeg",
+            "title": "Parksons Bicycle Standard Rider Back Playing Cards - Assorted",
+            "quantity": "1 piece",
+            "price": "294"
+          },
+          {
+            "imgUrl": "https://cdn.zeptonow.com/production///tr:w-350,ar-1000-1000,pr-true,f-auto,q-80/cms/product_variant/d8c16906-f376-4876-bb34-e6e9d78b19ef.jpeg",
+            "title": "Parksons Bicycle Standard Rider Back Playing Cards - Assorted",
+            "quantity": "1 piece",
+            "price": "294"
+          },
+          {
+            "imgUrl": "https://cdn.zeptonow.com/production///tr:w-350,ar-1000-1000,pr-true,f-auto,q-80/cms/product_variant/d8c16906-f376-4876-bb34-e6e9d78b19ef.jpeg",
+            "title": "Parksons Bicycle Standard Rider Back Playing Cards - Assorted",
+            "quantity": "1 piece",
+            "price": "294"
+          },
+          {
+            "imgUrl": "https://cdn.zeptonow.com/production///tr:w-350,ar-1000-1000,pr-true,f-auto,q-80/cms/product_variant/d8c16906-f376-4876-bb34-e6e9d78b19ef.jpeg",
+            "title": "Parksons Bicycle Standard Rider Back Playing Cards - Assorted",
+            "quantity": "1 piece",
+            "price": "294"
+          },
+          {
+            "imgUrl": "https://cdn.zeptonow.com/production///tr:w-350,ar-1000-1000,pr-true,f-auto,q-80/cms/product_variant/d8c16906-f376-4876-bb34-e6e9d78b19ef.jpeg",
+            "title": "Parksons Bicycle Standard Rider Back Playing Cards - Assorted",
+            "quantity": "1 piece",
+            "price": "294"
+          }
+        ]
+      },
+      {
+        "categoryName": "Board Games",
+        "categoryId": 1234,
+        "categoryimage": "https://cdn.zeptonow.com/production///tr:w-1280,ar-186-186,pr-true,f-auto,q-80/inventory/banner/be8c65b3-a144-430e-a581-34b1c4a6acae.png",
+        "products": [
+          {
+            "imgUrl": "https://cdn.zeptonow.com/production///tr:w-350,ar-2000-2000,pr-true,f-auto,q-80/cms/product_variant/5109d9f1-b77d-40e2-a36e-42c72b2042a3.jpeg",
+            "title": "Parksons Bicycle Standard Rider Back Playing Cards - Assorted",
+            "quantity": "2 piece",
+            "price": "100"
+          },
+          {
+            "imgUrl": "https://cdn.zeptonow.com/production///tr:w-350,ar-2000-2000,pr-true,f-auto,q-80/cms/product_variant/5109d9f1-b77d-40e2-a36e-42c72b2042a3.jpeg",
+            "title": "Parksons Bicycle Standard Rider Back Playing Cards - Assorted",
+            "quantity": "2 piece",
+            "price": "100"
+          },
+          {
+            "imgUrl": "https://cdn.zeptonow.com/production///tr:w-350,ar-2000-2000,pr-true,f-auto,q-80/cms/product_variant/5109d9f1-b77d-40e2-a36e-42c72b2042a3.jpeg",
+            "title": "Parksons Bicycle Standard Rider Back Playing Cards - Assorted",
+            "quantity": "2 piece",
+            "price": "100"
+          },
+          {
+            "imgUrl": "https://cdn.zeptonow.com/production///tr:w-350,ar-2000-2000,pr-true,f-auto,q-80/cms/product_variant/5109d9f1-b77d-40e2-a36e-42c72b2042a3.jpeg",
+            "title": "Parksons Bicycle Standard Rider Back Playing Cards - Assorted",
+            "quantity": "2 piece",
+            "price": "100"
+          },
+          {
+            "imgUrl": "https://cdn.zeptonow.com/production///tr:w-350,ar-2000-2000,pr-true,f-auto,q-80/cms/product_variant/5109d9f1-b77d-40e2-a36e-42c72b2042a3.jpeg",
+            "title": "Parksons Bicycle Standard Rider Back Playing Cards - Assorted",
+            "quantity": "2 piece",
+            "price": "100"
+          },
+          {
+            "imgUrl": "https://cdn.zeptonow.com/production///tr:w-350,ar-2000-2000,pr-true,f-auto,q-80/cms/product_variant/5109d9f1-b77d-40e2-a36e-42c72b2042a3.jpeg",
+            "title": "Parksons Bicycle Standard Rider Back Playing Cards - Assorted",
+            "quantity": "2 piece",
+            "price": "100"
+          }
+        ]
+      },
+      {
+        "categoryName": "chess Games",
+        "categoryId": 1235,
+        "categoryimage": "https://cdn.zeptonow.com/production///tr:w-1280,ar-186-186,pr-true,f-auto,q-80/inventory/banner/be8c65b3-a144-430e-a581-34b1c4a6acae.png",
+        "products": [
+          {
+            "imgUrl": "https://cdn.zeptonow.com/production///tr:w-350,ar-2000-2000,pr-true,f-auto,q-80/cms/product_variant/5109d9f1-b77d-40e2-a36e-42c72b2042a3.jpeg",
+            "title": "Parksons Bicycle Standard Rider Back Playing Cards - Assorted",
+            "quantity": "2 piece",
+            "price": "100"
+          },
+          {
+            "imgUrl": "https://cdn.zeptonow.com/production///tr:w-350,ar-2000-2000,pr-true,f-auto,q-80/cms/product_variant/5109d9f1-b77d-40e2-a36e-42c72b2042a3.jpeg",
+            "title": "Parksons Bicycle Standard Rider Back Playing Cards - Assorted",
+            "quantity": "2 piece",
+            "price": "100"
+          },
+          {
+            "imgUrl": "https://cdn.zeptonow.com/production///tr:w-350,ar-2000-2000,pr-true,f-auto,q-80/cms/product_variant/5109d9f1-b77d-40e2-a36e-42c72b2042a3.jpeg",
+            "title": "Parksons Bicycle Standard Rider Back Playing Cards - Assorted",
+            "quantity": "2 piece",
+            "price": "100"
+          },
+          {
+            "imgUrl": "https://cdn.zeptonow.com/production///tr:w-350,ar-2000-2000,pr-true,f-auto,q-80/cms/product_variant/5109d9f1-b77d-40e2-a36e-42c72b2042a3.jpeg",
+            "title": "Parksons Bicycle Standard Rider Back Playing Cards - Assorted",
+            "quantity": "2 piece",
+            "price": "100"
+          },
+          {
+            "imgUrl": "https://cdn.zeptonow.com/production///tr:w-350,ar-2000-2000,pr-true,f-auto,q-80/cms/product_variant/5109d9f1-b77d-40e2-a36e-42c72b2042a3.jpeg",
+            "title": "Parksons Bicycle Standard Rider Back Playing Cards - Assorted",
+            "quantity": "2 piece",
+            "price": "100"
+          },
+          {
+            "imgUrl": "https://cdn.zeptonow.com/production///tr:w-350,ar-2000-2000,pr-true,f-auto,q-80/cms/product_variant/5109d9f1-b77d-40e2-a36e-42c72b2042a3.jpeg",
+            "title": "Parksons Bicycle Standard Rider Back Playing Cards - Assorted",
+            "quantity": "2 piece",
+            "price": "100"
+          }
+        ]
+      },
+      {
+        "categoryName": "tennis Games",
+        "categoryId": 1236,
+        "categoryimage": "https://cdn.zeptonow.com/production///tr:w-1280,ar-186-186,pr-true,f-auto,q-80/inventory/banner/be8c65b3-a144-430e-a581-34b1c4a6acae.png",
+        "products": [
+          {
+            "imgUrl": "https://cdn.zeptonow.com/production///tr:w-350,ar-2000-2000,pr-true,f-auto,q-80/cms/product_variant/5109d9f1-b77d-40e2-a36e-42c72b2042a3.jpeg",
+            "title": "Parksons Bicycle Standard Rider Back Playing Cards - Assorted",
+            "quantity": "2 piece",
+            "price": "100"
+          },
+          {
+            "imgUrl": "https://cdn.zeptonow.com/production///tr:w-350,ar-2000-2000,pr-true,f-auto,q-80/cms/product_variant/5109d9f1-b77d-40e2-a36e-42c72b2042a3.jpeg",
+            "title": "Parksons Bicycle Standard Rider Back Playing Cards - Assorted",
+            "quantity": "2 piece",
+            "price": "100"
+          },
+          {
+            "imgUrl": "https://cdn.zeptonow.com/production///tr:w-350,ar-2000-2000,pr-true,f-auto,q-80/cms/product_variant/5109d9f1-b77d-40e2-a36e-42c72b2042a3.jpeg",
+            "title": "Parksons Bicycle Standard Rider Back Playing Cards - Assorted",
+            "quantity": "2 piece",
+            "price": "100"
+          },
+          {
+            "imgUrl": "https://cdn.zeptonow.com/production///tr:w-350,ar-2000-2000,pr-true,f-auto,q-80/cms/product_variant/5109d9f1-b77d-40e2-a36e-42c72b2042a3.jpeg",
+            "title": "Parksons Bicycle Standard Rider Back Playing Cards - Assorted",
+            "quantity": "2 piece",
+            "price": "100"
+          },
+          {
+            "imgUrl": "https://cdn.zeptonow.com/production///tr:w-350,ar-2000-2000,pr-true,f-auto,q-80/cms/product_variant/5109d9f1-b77d-40e2-a36e-42c72b2042a3.jpeg",
+            "title": "Parksons Bicycle Standard Rider Back Playing Cards - Assorted",
+            "quantity": "2 piece",
+            "price": "100"
+          },
+          {
+            "imgUrl": "https://cdn.zeptonow.com/production///tr:w-350,ar-2000-2000,pr-true,f-auto,q-80/cms/product_variant/5109d9f1-b77d-40e2-a36e-42c72b2042a3.jpeg",
+            "title": "Parksons Bicycle Standard Rider Back Playing Cards - Assorted",
+            "quantity": "2 piece",
+            "price": "100"
+          }
+        ]
+      }
+    ],
+    "exploreStore": {
+      "title": "Explore gifting store",
+      "explores": [
+        {
+          "giftimage": "https://cdn.zeptonow.com/production///tr:w-309,ar-309-357,pr-true,f-auto,q-80/inventory/banner/22f8bb7f-3aec-4b32-b80e-ce793ea51b63.png",
+          "giftname": "For Boys",
+          "id": "boys"
+        },
+        {
+          "giftimage": "https://cdn.zeptonow.com/production///tr:w-309,ar-309-357,pr-true,f-auto,q-80/inventory/banner/833635e0-f3fe-4307-a6b8-74119cceb3b5.png",
+          "giftname": "For Girls",
+          "id": "girls"
+        },
+        {
+          "giftimage": "https://cdn.zeptonow.com/production///tr:w-309,ar-309-357,pr-true,f-auto,q-80/inventory/banner/a33d4df0-07ee-45a7-8385-c08555592a37.png",
+          "giftname": "For Grownups",
+          "id": "gift"
+        }
+      ]
+    }
+  },
+  "gifitingSpecialStore": {
+    "hemorImageUrl": "/Images/fb77320f-917d-403a-b4ae-d1135234e7cb.webp",
+    "recommendedProducts": [
+      {
+        "imgUrl": "https://cdn.zeptonow.com/production///tr:w-400,ar-2000-2000,pr-true,f-auto,q-80/cms/product_variant/bf854196-3679-49e4-a71a-04ac65acf0c1.jpeg",
+        "title": "Uno Flip Playing Card",
+        "quantity": "1 piece",
+        "price": "170"
+      },
+      {
+        "imgUrl": "https://picsum.photos/id/237/200/300",
+        "title": "Apple",
+        "quantity": "5",
+        "price": "3.00"
+    },
+    {
+        "imgUrl": "https://picsum.photos/seed/picsum/200/300",
+        "title": "Banana",
+        "quantity": "10",
+        "price": "1.50"
+    },
+    {
+        "imgUrl": "https://upload.wikimedia.org/wikipedia/commons/3/36/Kyoho-grape.jpg",
+        "title": "Grapes",
+        "quantity": "2",
+        "price": "4.00"
+    },
+    {
+        "imgUrl": "https://upload.wikimedia.org/wikipedia/commons/9/90/Hapus_Mango.jpg",
+        "title": "Mango",
+        "quantity": "7",
+        "price": "2.50"
+    },
+    {
+        "imgUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Orange-Whole-%26-Split.jpg",
+        "title": "Orange",
+        "quantity": "8",
+        "price": "3.20"
+    },
+    {
+        "imgUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Pineapple_and_cross_section.jpg",
+        "title": "Pineapple",
+        "quantity": "1",
+        "price": "5.00"
+    }
+    ],
+    "productsByCategory": [
+      {
+        "categoryName": "CardGames",
+        "categoryId": 123,
+        "categoryimage": "https://cdn.zeptonow.com/production///tr:w-1280,ar-186-186,pr-true,f-auto,q-80/inventory/banner/be8c65b3-a144-430e-a581-34b1c4a6acae.png",
+        "products": [
+          {
+            "imgUrl": "https://cdn.zeptonow.com/production///tr:w-350,ar-1000-1000,pr-true,f-auto,q-80/cms/product_variant/d8c16906-f376-4876-bb34-e6e9d78b19ef.jpeg",
+            "title": "Parksons Bicycle Standard Rider Back Playing Cards - Assorted",
+            "quantity": "1 piece",
+            "price": "294"
+          },
+          {
+            "imgUrl": "https://cdn.zeptonow.com/production///tr:w-350,ar-1000-1000,pr-true,f-auto,q-80/cms/product_variant/d8c16906-f376-4876-bb34-e6e9d78b19ef.jpeg",
+            "title": "Parksons Bicycle Standard Rider Back Playing Cards - Assorted",
+            "quantity": "1 piece",
+            "price": "294"
+          },
+          {
+            "imgUrl": "https://cdn.zeptonow.com/production///tr:w-350,ar-1000-1000,pr-true,f-auto,q-80/cms/product_variant/d8c16906-f376-4876-bb34-e6e9d78b19ef.jpeg",
+            "title": "Parksons Bicycle Standard Rider Back Playing Cards - Assorted",
+            "quantity": "1 piece",
+            "price": "294"
+          },
+          {
+            "imgUrl": "https://cdn.zeptonow.com/production///tr:w-350,ar-1000-1000,pr-true,f-auto,q-80/cms/product_variant/d8c16906-f376-4876-bb34-e6e9d78b19ef.jpeg",
+            "title": "Parksons Bicycle Standard Rider Back Playing Cards - Assorted",
+            "quantity": "1 piece",
+            "price": "294"
+          },
+          {
+            "imgUrl": "https://cdn.zeptonow.com/production///tr:w-350,ar-1000-1000,pr-true,f-auto,q-80/cms/product_variant/d8c16906-f376-4876-bb34-e6e9d78b19ef.jpeg",
+            "title": "Parksons Bicycle Standard Rider Back Playing Cards - Assorted",
+            "quantity": "1 piece",
+            "price": "294"
+          },
+          {
+            "imgUrl": "https://cdn.zeptonow.com/production///tr:w-350,ar-1000-1000,pr-true,f-auto,q-80/cms/product_variant/d8c16906-f376-4876-bb34-e6e9d78b19ef.jpeg",
+            "title": "Parksons Bicycle Standard Rider Back Playing Cards - Assorted",
+            "quantity": "1 piece",
+            "price": "294"
+          }
+        ]
+      },
+      {
+        "categoryName": "Board Games",
+        "categoryId": 1234,
+        "categoryimage": "https://cdn.zeptonow.com/production///tr:w-1280,ar-186-186,pr-true,f-auto,q-80/inventory/banner/be8c65b3-a144-430e-a581-34b1c4a6acae.png",
+        "products": [
+          {
+            "imgUrl": "https://cdn.zeptonow.com/production///tr:w-350,ar-2000-2000,pr-true,f-auto,q-80/cms/product_variant/5109d9f1-b77d-40e2-a36e-42c72b2042a3.jpeg",
+            "title": "Parksons Bicycle Standard Rider Back Playing Cards - Assorted",
+            "quantity": "2 piece",
+            "price": "100"
+          },
+          {
+            "imgUrl": "https://cdn.zeptonow.com/production///tr:w-350,ar-2000-2000,pr-true,f-auto,q-80/cms/product_variant/5109d9f1-b77d-40e2-a36e-42c72b2042a3.jpeg",
+            "title": "Parksons Bicycle Standard Rider Back Playing Cards - Assorted",
+            "quantity": "2 piece",
+            "price": "100"
+          },
+          {
+            "imgUrl": "https://cdn.zeptonow.com/production///tr:w-350,ar-2000-2000,pr-true,f-auto,q-80/cms/product_variant/5109d9f1-b77d-40e2-a36e-42c72b2042a3.jpeg",
+            "title": "Parksons Bicycle Standard Rider Back Playing Cards - Assorted",
+            "quantity": "2 piece",
+            "price": "100"
+          },
+          {
+            "imgUrl": "https://cdn.zeptonow.com/production///tr:w-350,ar-2000-2000,pr-true,f-auto,q-80/cms/product_variant/5109d9f1-b77d-40e2-a36e-42c72b2042a3.jpeg",
+            "title": "Parksons Bicycle Standard Rider Back Playing Cards - Assorted",
+            "quantity": "2 piece",
+            "price": "100"
+          },
+          {
+            "imgUrl": "https://cdn.zeptonow.com/production///tr:w-350,ar-2000-2000,pr-true,f-auto,q-80/cms/product_variant/5109d9f1-b77d-40e2-a36e-42c72b2042a3.jpeg",
+            "title": "Parksons Bicycle Standard Rider Back Playing Cards - Assorted",
+            "quantity": "2 piece",
+            "price": "100"
+          },
+          {
+            "imgUrl": "https://cdn.zeptonow.com/production///tr:w-350,ar-2000-2000,pr-true,f-auto,q-80/cms/product_variant/5109d9f1-b77d-40e2-a36e-42c72b2042a3.jpeg",
+            "title": "Parksons Bicycle Standard Rider Back Playing Cards - Assorted",
+            "quantity": "2 piece",
+            "price": "100"
+          }
+        ]
+      },
+      {
+        "categoryName": "chess Games",
+        "categoryId": 1235,
+        "categoryimage": "https://cdn.zeptonow.com/production///tr:w-1280,ar-186-186,pr-true,f-auto,q-80/inventory/banner/be8c65b3-a144-430e-a581-34b1c4a6acae.png",
+        "products": [
+          {
+            "imgUrl": "https://cdn.zeptonow.com/production///tr:w-350,ar-2000-2000,pr-true,f-auto,q-80/cms/product_variant/5109d9f1-b77d-40e2-a36e-42c72b2042a3.jpeg",
+            "title": "Parksons Bicycle Standard Rider Back Playing Cards - Assorted",
+            "quantity": "2 piece",
+            "price": "100"
+          },
+          {
+            "imgUrl": "https://cdn.zeptonow.com/production///tr:w-350,ar-2000-2000,pr-true,f-auto,q-80/cms/product_variant/5109d9f1-b77d-40e2-a36e-42c72b2042a3.jpeg",
+            "title": "Parksons Bicycle Standard Rider Back Playing Cards - Assorted",
+            "quantity": "2 piece",
+            "price": "100"
+          },
+          {
+            "imgUrl": "https://cdn.zeptonow.com/production///tr:w-350,ar-2000-2000,pr-true,f-auto,q-80/cms/product_variant/5109d9f1-b77d-40e2-a36e-42c72b2042a3.jpeg",
+            "title": "Parksons Bicycle Standard Rider Back Playing Cards - Assorted",
+            "quantity": "2 piece",
+            "price": "100"
+          },
+          {
+            "imgUrl": "https://cdn.zeptonow.com/production///tr:w-350,ar-2000-2000,pr-true,f-auto,q-80/cms/product_variant/5109d9f1-b77d-40e2-a36e-42c72b2042a3.jpeg",
+            "title": "Parksons Bicycle Standard Rider Back Playing Cards - Assorted",
+            "quantity": "2 piece",
+            "price": "100"
+          },
+          {
+            "imgUrl": "https://cdn.zeptonow.com/production///tr:w-350,ar-2000-2000,pr-true,f-auto,q-80/cms/product_variant/5109d9f1-b77d-40e2-a36e-42c72b2042a3.jpeg",
+            "title": "Parksons Bicycle Standard Rider Back Playing Cards - Assorted",
+            "quantity": "2 piece",
+            "price": "100"
+          },
+          {
+            "imgUrl": "https://cdn.zeptonow.com/production///tr:w-350,ar-2000-2000,pr-true,f-auto,q-80/cms/product_variant/5109d9f1-b77d-40e2-a36e-42c72b2042a3.jpeg",
+            "title": "Parksons Bicycle Standard Rider Back Playing Cards - Assorted",
+            "quantity": "2 piece",
+            "price": "100"
+          }
+        ]
+      },
+      {
+        "categoryName": "tennis Games",
+        "categoryId": 1236,
+        "categoryimage": "https://cdn.zeptonow.com/production///tr:w-1280,ar-186-186,pr-true,f-auto,q-80/inventory/banner/be8c65b3-a144-430e-a581-34b1c4a6acae.png",
+        "products": [
+          {
+            "imgUrl": "https://cdn.zeptonow.com/production///tr:w-350,ar-2000-2000,pr-true,f-auto,q-80/cms/product_variant/5109d9f1-b77d-40e2-a36e-42c72b2042a3.jpeg",
+            "title": "Parksons Bicycle Standard Rider Back Playing Cards - Assorted",
+            "quantity": "2 piece",
+            "price": "100"
+          },
+          {
+            "imgUrl": "https://cdn.zeptonow.com/production///tr:w-350,ar-2000-2000,pr-true,f-auto,q-80/cms/product_variant/5109d9f1-b77d-40e2-a36e-42c72b2042a3.jpeg",
+            "title": "Parksons Bicycle Standard Rider Back Playing Cards - Assorted",
+            "quantity": "2 piece",
+            "price": "100"
+          },
+          {
+            "imgUrl": "https://cdn.zeptonow.com/production///tr:w-350,ar-2000-2000,pr-true,f-auto,q-80/cms/product_variant/5109d9f1-b77d-40e2-a36e-42c72b2042a3.jpeg",
+            "title": "Parksons Bicycle Standard Rider Back Playing Cards - Assorted",
+            "quantity": "2 piece",
+            "price": "100"
+          },
+          {
+            "imgUrl": "https://cdn.zeptonow.com/production///tr:w-350,ar-2000-2000,pr-true,f-auto,q-80/cms/product_variant/5109d9f1-b77d-40e2-a36e-42c72b2042a3.jpeg",
+            "title": "Parksons Bicycle Standard Rider Back Playing Cards - Assorted",
+            "quantity": "2 piece",
+            "price": "100"
+          },
+          {
+            "imgUrl": "https://cdn.zeptonow.com/production///tr:w-350,ar-2000-2000,pr-true,f-auto,q-80/cms/product_variant/5109d9f1-b77d-40e2-a36e-42c72b2042a3.jpeg",
+            "title": "Parksons Bicycle Standard Rider Back Playing Cards - Assorted",
+            "quantity": "2 piece",
+            "price": "100"
+          },
+          {
+            "imgUrl": "https://cdn.zeptonow.com/production///tr:w-350,ar-2000-2000,pr-true,f-auto,q-80/cms/product_variant/5109d9f1-b77d-40e2-a36e-42c72b2042a3.jpeg",
+            "title": "Parksons Bicycle Standard Rider Back Playing Cards - Assorted",
+            "quantity": "2 piece",
+            "price": "100"
+          }
+        ]
+      }
+    ],
+    "exploreStore": {
+      "title": "Explore gifting store",
+      "explores": [
+        {
+          "giftimage": "https://cdn.zeptonow.com/production///tr:w-309,ar-309-357,pr-true,f-auto,q-80/inventory/banner/22f8bb7f-3aec-4b32-b80e-ce793ea51b63.png",
+          "giftname": "For Boys",
+          "id": "boys"
+        },
+        {
+          "giftimage": "https://cdn.zeptonow.com/production///tr:w-309,ar-309-357,pr-true,f-auto,q-80/inventory/banner/833635e0-f3fe-4307-a6b8-74119cceb3b5.png",
+          "giftname": "For Girls",
+          "id": "girls"
+        },
+        {
+          "giftimage": "https://cdn.zeptonow.com/production///tr:w-309,ar-309-357,pr-true,f-auto,q-80/inventory/banner/a33d4df0-07ee-45a7-8385-c08555592a37.png",
+          "giftname": "For Grownups",
+          "id": "gift"
+        }
+      ]
+    }
+  }
+}

@@ -1,8 +1,4 @@
 import React from "react";
-import wimg from "../../../../Images/61d184bb-e0a7-4669-ba6d-94f434e00639.webp";
-import mimg from "../../../../Images/51c03e9c-00d1-4543-8144-657e3cbfb77b.png";
-import gimg from "../../../../Images/ea397c47-8886-4565-9665-6455dfffea64.png";
-import boat from "../../../../Images/aef6ed2c-1f08-493a-a2c0-bdb7e0974bcc.webp";
 import "./MainSection.css";
 import { Link } from "react-router-dom";
 
@@ -20,7 +16,7 @@ function MainSection() {
           <div class="corners">
             <Link to="/shopingStore/womensStore">
               <img
-                src={wimg}
+                src={"/Images/61d184bb-e0a7-4669-ba6d-94f434e00639.webp"}
                 style={{
                   width: "350px",
                   height: "350px",
@@ -33,7 +29,7 @@ function MainSection() {
           <div class="corners">
             <Link to="/shopingStore/mensStore">
               <img
-                src={mimg}
+                src={"/Images/51c03e9c-00d1-4543-8144-657e3cbfb77b.png"}
                 style={{
                   width: "350px",
                   height: "350px",
@@ -46,7 +42,7 @@ function MainSection() {
           <div class="corners">
             <Link to="/shopingStore/gifitingSpecialStore">
               <img
-                src={gimg}
+                src={"/Images/ea397c47-8886-4565-9665-6455dfffea64.png"}
                 style={{
                   width: "350px",
                   height: "350px",
@@ -64,7 +60,7 @@ function MainSection() {
             </p>
           </div>
           <div id="textpara2">
-            <img src={boat} style={{ width: "1000px", height: "90px" }}></img>
+            <img src={"/Images/aef6ed2c-1f08-493a-a2c0-bdb7e0974bcc.webp"} style={{ width: "1000px", height: "90px" }}></img>
           </div>
         </div>
       </div>

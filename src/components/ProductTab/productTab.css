@@ -1,15 +1,17 @@
 .producttab{
-  background-color: aqua;
+  
   width: 900px;
-  margin: auto;
+  
   height: 400px;
   margin-bottom: 20px;
+  display: flex;
 }
 
 .product {
   height: 400px;
   width: 200px;
   margin-left: 10px;
+  
 }
 
 

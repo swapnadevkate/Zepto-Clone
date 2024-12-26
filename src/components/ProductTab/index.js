@@ -17,7 +17,7 @@ function ProductTab({ products }) {
       {products.map((productData) => {
        
         return (
-          <div key={productData.id} class="product">
+          <div key={productData.id} className="product">
             <ProductSection
               productData={productData}
               clickHandler={clickHandler}

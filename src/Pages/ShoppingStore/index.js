@@ -1,59 +1,58 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 
 import ProductImage from "../../components/ProductImage";
 import ProductSection from "../../components/ProductSection";
 import CategorySection from "../../components/CategorySection";
-import shopppingStore from "./dataStore";   //imporeted shoping store data from datastore
+// import shopppingStore from "./dataStore";   //imporeted shoping store data from datastore
 import ExploreGiftingStore from "../../ExploreGiftingStore";
-import "./shoppingStore.css";
+import  "./shoppingStore.css";
 
-/*
- *
- * based on the params id get the data of the page
- *
- * For Example pageId is womensCorner
- *
- *  shopppingStore = {
- *      womensStore = {},
- *      mensStore = {},
- *      gifitingSpecialStore = {}
- *  }
- *
- */
-
-//  *********************************************************
-
-// To Do Tommorrows
-//  Re-usable Component from url : https://www.zeptonow.com/pip/Toy/14772
-//  Fix CSS for this image using classes instead of using from JS
-// 3 re-usable components
 
 function ShoppingStore() {
+  const [items, setItems] = useState(null);
+  
+  useEffect(() => {
+    fetch("/dataStore.json")
+      .then((response) =>
+        response.json().then((data) => {
+          setItems(data);
+          console.log("data of json is", data);
+        })
+      )
+      .then();
+  }, []);
+
   const { id } = useParams();
-  const store = shopppingStore[id];
+if(items == null){
+return null
+}
+  const store = items[id];
 
   const recommendedProducts = store.recommendedProducts;
   const productsByCategory = store.productsByCategory;
-  const exploreStore = store.exploreStore
+  const exploreStore = store.exploreStore;
 
   return (
     <div>
-      <section style={{ textAlign: "center", marginTop: "100px" }}>
+      <section  style={{textAlign:"center",marginTop:"30px"}}>
         <ProductImage
           src={store.hemorImageUrl}
-          style={{ height: "600px", width: "600px" }}
+          style={{ height: "600px", width: "900px"}}
         />
       </section>
-      <section style={{ marginTop: "100px", marginBottom: "200px" }}>
+      <section className="recomendedProduct" >
         {recommendedProducts.map((productData) => {
           return (
-            <ProductSection productData={productData} btnText={"Add To Cart"} />
+            <ProductSection productData={productData} btnText={"Add To Cart"}/>
           );
         })}
       </section>
       <section>
-      <ExploreGiftingStore explores={exploreStore.explores} title={exploreStore.title}/>
+        <ExploreGiftingStore
+          explores={exploreStore.explores}
+          title={exploreStore.title}
+        />
       </section>
       <section>
         <CategorySection categories={productsByCategory} />
