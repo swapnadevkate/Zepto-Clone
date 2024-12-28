@@ -1,0 +1,15 @@
+.heroimg1{
+    height: 500px;
+    text-align: center;
+}
+.products{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+   
+}
+.subheroimg{
+    text-align: center;
+    height: 200px; 
+    margin-top: 10px;
+}

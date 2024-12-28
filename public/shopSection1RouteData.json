@@ -1,0 +1,160 @@
+
+{
+"101":{
+        "heroImg":"https://cdn.zeptonow.com/production///tr:w-1280,ar-1440-976,pr-true,f-auto,q-80/inventory/banner/36a800e4-0010-4fbb-abc5-13ed6d3fa669.png",
+        "productsCategory":[
+           {
+                "img":"https://picsum.photos/seed/picsum/200/300",
+                "id":""
+            },
+            {
+                "img":"https://picsum.photos/seed/picsum/200/300",
+                "id":""
+            },
+            {
+                "img":"https://picsum.photos/seed/picsum/200/300",
+                "id":""
+            },
+            {
+                "img":"https://picsum.photos/seed/picsum/200/300",
+                "id":""
+            },
+            {
+                "img":"https://picsum.photos/seed/picsum/200/300",
+                "id":""
+            }
+        ],
+         "subheroimg":"https://cdn.zeptonow.com/production///tr:w-1080,ar-1080-270,pr-true,f-auto,q-80/inventory/banner/6f373687-11fb-4074-9ef3-be480a81db48.png",
+        "productsdetails":[
+           {
+                "img":"https://picsum.photos/200/300/?blur=2",
+                "title":"title",
+                "quantity":"q1",
+                "price":"100"
+            }
+        ],
+        "seabtnimg":"https://cdn.zeptonow.com/production///tr:w-1280,ar-1412-204,pr-true,f-auto,q-80/inventory/banner/40465ef6-8692-4962-9c05-a04510b5068a.png",
+        "heroimg3":"https://cdn.zeptonow.com/production///tr:w-1080,ar-1080-295,pr-true,f-auto,q-80/inventory/banner/78f029fc-3e85-4232-8037-f443a8281105.png"
+        
+    
+           
+        
+    },
+
+
+    "102":{
+"heroImg":"https://cdn.zeptonow.com/production///tr:w-1280,ar-1440-940,pr-true,f-auto,q-80/inventory/banner/f3a9fc68-3976-44c4-8856-484544443a8f.png",
+"productsCategory":[
+    {
+         "img":"https://picsum.photos/seed/picsum/200/300",
+         "id":""
+     },
+     {
+         "img":"https://picsum.photos/seed/picsum/200/300",
+         "id":""
+     },
+     {
+         "img":"https://picsum.photos/seed/picsum/200/300",
+         "id":""
+     },
+     {
+         "img":"https://picsum.photos/seed/picsum/200/300",
+         "id":""
+     },
+     {
+         "img":"https://picsum.photos/seed/picsum/200/300",
+         "id":""
+     }
+ ],
+  "subheroimg":"https://cdn.zeptonow.com/production///tr:w-1080,ar-1080-270,pr-true,f-auto,q-80/inventory/banner/6f373687-11fb-4074-9ef3-be480a81db48.png",
+ "productsdetails":[
+    {
+         "img":"https://picsum.photos/200/300/?blur=2",
+         "title":"title",
+         "quantity":"q1",
+         "price":"100"
+     }
+ ],
+ "seabtnimg":"https://cdn.zeptonow.com/production///tr:w-1280,ar-1412-204,pr-true,f-auto,q-80/inventory/banner/40465ef6-8692-4962-9c05-a04510b5068a.png",
+ "heroimg3":"https://cdn.zeptonow.com/production///tr:w-1080,ar-1080-295,pr-true,f-auto,q-80/inventory/banner/78f029fc-3e85-4232-8037-f443a8281105.png"
+ 
+    },
+
+
+    "103":{
+"heroImg":"https://cdn.zeptonow.com/production///tr:w-1000,ar-100-100,pr-true,f-auto,q-80/web/recipes/aloo-paratha.png",
+"productsCategory":[
+    {
+         "img":"https://picsum.photos/seed/picsum/200/300",
+         "id":""
+     },
+     {
+         "img":"https://picsum.photos/seed/picsum/200/300",
+         "id":""
+     },
+     {
+         "img":"https://picsum.photos/seed/picsum/200/300",
+         "id":""
+     },
+     {
+         "img":"https://picsum.photos/seed/picsum/200/300",
+         "id":""
+     },
+     {
+         "img":"https://picsum.photos/seed/picsum/200/300",
+         "id":""
+     }
+ ],
+  "subheroimg":"https://cdn.zeptonow.com/production///tr:w-1080,ar-1080-270,pr-true,f-auto,q-80/inventory/banner/6f373687-11fb-4074-9ef3-be480a81db48.png",
+ "productsdetails":[
+    {
+         "img":"https://picsum.photos/200/300/?blur=2",
+         "title":"title",
+         "quantity":"q1",
+         "price":"100"
+     }
+ ],
+ "seabtnimg":"https://cdn.zeptonow.com/production///tr:w-1280,ar-1412-204,pr-true,f-auto,q-80/inventory/banner/40465ef6-8692-4962-9c05-a04510b5068a.png",
+ "heroimg3":"https://cdn.zeptonow.com/production///tr:w-1080,ar-1080-295,pr-true,f-auto,q-80/inventory/banner/78f029fc-3e85-4232-8037-f443a8281105.png"
+ 
+    },
+    "104":{
+        "heroImg":"https://cdn.zeptonow.com/production///tr:w-1080,ar-1080-927,pr-true,f-auto,q-80/inventory/banner/4e54be2a-57e3-480c-90b7-bf6a0b6cc2c6.png",
+        "productsCategory":[
+            {
+                 "img":"https://picsum.photos/seed/picsum/200/300",
+                 "id":""
+             },
+             {
+                 "img":"https://picsum.photos/seed/picsum/200/300",
+                 "id":""
+             },
+             {
+                 "img":"https://picsum.photos/seed/picsum/200/300",
+                 "id":""
+             },
+             {
+                 "img":"https://picsum.photos/seed/picsum/200/300",
+                 "id":""
+             },
+             {
+                 "img":"https://picsum.photos/seed/picsum/200/300",
+                 "id":""
+             }
+         ],
+          "subheroimg":"https://cdn.zeptonow.com/production///tr:w-1080,ar-1080-270,pr-true,f-auto,q-80/inventory/banner/6f373687-11fb-4074-9ef3-be480a81db48.png",
+         "productsdetails":[
+            {
+                 "img":"https://picsum.photos/200/300/?blur=2",
+                 "title":"title",
+                 "quantity":"q1",
+                 "price":"100"
+             }
+         ],
+         "seabtnimg":"https://cdn.zeptonow.com/production///tr:w-1280,ar-1412-204,pr-true,f-auto,q-80/inventory/banner/40465ef6-8692-4962-9c05-a04510b5068a.png",
+         "heroimg3":"https://cdn.zeptonow.com/production///tr:w-1080,ar-1080-295,pr-true,f-auto,q-80/inventory/banner/78f029fc-3e85-4232-8037-f443a8281105.png"
+         
+    }
+}
+
+

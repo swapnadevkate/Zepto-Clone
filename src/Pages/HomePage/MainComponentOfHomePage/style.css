@@ -1,0 +1,55 @@
+.heroimg{
+    height: 270px;
+   
+    margin-top: 25px;
+}
+.mainSection{
+    height: 950px;
+    background-color:rgb(247, 204, 188);
+   
+    
+}
+.firstsec{
+    height: 100px;
+   
+    font-size: 30px;
+    margin-left: 500px;
+    font-weight: bold;
+    font-size: 30px;
+    color: rgba(103, 27, 25, 0.664);
+  }
+
+.secondsec{
+    height: 360px;
+    display: flex;
+   
+    margin-left: 1px;
+    border-radius: 40px;
+  }
+ 
+  .thirdSec{
+    margin-left: 250px;
+    font-size: 50px;
+    display: flex;
+    height: 200px;
+    margin-top: 50px;
+  }
+  .fourthsec{
+    text-align: center;
+    font-size: xx-large;
+    
+  }
+  .shopsection1{
+   display: flex;
+  
+  margin-top: 20px;
+  height: 280px;
+ 
+  }
+  .shopsection2{
+    display: flex;
+  
+    margin-top: 30px;
+    height: 220px;
+  }
+ 

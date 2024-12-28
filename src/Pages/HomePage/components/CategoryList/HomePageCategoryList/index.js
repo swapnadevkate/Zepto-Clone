@@ -6,7 +6,7 @@ import "./style.css"
 function HomePageCategoryList() {
     const [groceryImg,setGroceryImg]=useState([])
     useEffect(()=>{
-        fetch('/CategoryList.json').then((response)=>response.json())
+        fetch('/HomePageData.json').then((response)=>response.json())
         .then((data)=>{
           setGroceryImg(data)
           
@@ -27,7 +27,7 @@ function HomePageCategoryList() {
       {
         
         product.subbCategories.map((subProduct)=>{
-          console.log("json data is ",subProduct)
+
           return(
             
            

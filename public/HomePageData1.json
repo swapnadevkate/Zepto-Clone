@@ -1,0 +1,92 @@
+[
+{
+
+
+    "heroImg":"https://cdn.zeptonow.com/web-static-assets-prod/artifacts/12.24.0/tr:w-1438,ar-1438-265,pr-true,f-auto,q-80//images/paan-corner/paan-corner-desktop.png",
+    "mainSection":{
+        "weddingpara":"Wedding store",
+        "shopingstore":[
+            {
+                "img":"Images/61d184bb-e0a7-4669-ba6d-94f434e00639.webp",
+                "id":"womensStore"
+            },
+            {
+                "img":"Images/51c03e9c-00d1-4543-8144-657e3cbfb77b.png",
+                "id":"mensStore"
+            },
+            {
+          "img":"Images/ea397c47-8886-4565-9665-6455dfffea64.png",
+          "id":"giftingStore"
+            }
+        ],
+       
+        
+        
+        "timepara": {
+            "para1":"We are now open",
+            "para2":"24*7",
+            "para3":"in your area"
+        }
+        ,
+        "offerImage":"/Images/aef6ed2c-1f08-493a-a2c0-bdb7e0974bcc.webp"
+        },
+    "shopSection":
+       [
+        {
+            "img":"/Images/d4d4c07d-b215-434e-ab5a-e5f65fb3c50d.webp",
+            "id":"101"
+           
+        },
+        {
+            "img":"/Images/765633ad-5d14-448d-9bef-90171c9c26a6.webp",
+            "id":"102"
+        },
+        {
+            "img":"/Images/132754f4-dca3-4c53-b554-335ad1115ca7.webp",
+            "id":"103"
+        },
+        {
+            "img":"/Images/0b900761-7e86-47c1-a016-e259cc10c8a8.webp",
+            "id":"104"
+        }
+    ],
+    "heroimage2":"/Images/a978dfb9-3b0b-4ba1-b500-decc8e583227.webp",
+    "shopSection2":[
+        {
+            "img":"/Images/e6f4bf74-cb7d-430f-a546-f3ad7b818a92.webp"
+        },
+        {
+            "img":"/Images/da12777a-3838-4ea2-95ac-3b2b2a0e1bbe.webp"
+        },
+        {
+            "img":"/Images/b831f429-7738-434b-98c1-53d5be45474d.png"
+        },
+        {
+            "img":"/Images/973b0d4f-4774-4692-ace1-fe47d79d7e4b.png"
+        },
+        {
+            "img":"/Images/682e7730-d5ca-4c80-9920-4bbc41d4d26e.png"
+        },
+        {
+            "img":"/Images/8bcd0dea-f1d9-4a3a-9678-0e7d3823e578.png"
+        },
+        {
+            "img":"/Images/4d5def35-0b1d-40ac-a5ed-0f1d1c27b9aa.webp"
+        }
+    ],
+    "shopSection3":[
+        {
+        "img1":"https://picsum.photos/seed/picsum/200/300",
+        "img2":"https://picsum.photos/200/300/?blur",
+        "img3":"https://picsum.photos/seed/picsum/200/300",
+        "img4":"https://picsum.photos/200/300/?blur",
+        "img5":"https://picsum.photos/seed/picsum/200/300",
+        "img6":"https://picsum.photos/200/300/?blur",
+        "img7":"https://picsum.photos/seed/picsum/200/300"
+        }
+    ]
+ }
+]
+    
+
+    

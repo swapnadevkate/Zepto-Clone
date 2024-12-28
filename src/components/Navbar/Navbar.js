@@ -12,7 +12,7 @@ import "./Navbar.css";
 function Navbar() {
   const { state, dispatch } = useContext(DataContext);
   const navigate = useNavigate();
-  console.log("Cart Count:", state.count);
+  
   const cartHandler = () => {
     navigate("/Pages/ShowCartProduct/ShowCartProduct");
   };
