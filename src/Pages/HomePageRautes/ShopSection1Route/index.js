@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react";
 import ProductImage from "../../../components/ProductImage";
-
 import { useParams } from "react-router-dom";
 import "./style.css"
 function ShopSection1Route() {

@@ -1,0 +1,7 @@
+.overallData{
+    margin: auto;
+    width: 1000px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}

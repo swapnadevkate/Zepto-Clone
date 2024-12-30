@@ -8,6 +8,8 @@ import ShowPathOfExploreProductList from "../../ExploreGiftingStore/ShowPathOfEx
 import SidebarParent from "../../GroceryAndKitchen/SidebarParent";
 import HomePageRouteCategoryList from "../HomePage/components/CategoryList/HomePageRouteCategoryList";
 import ShopSection1Route from "./ShopSection1Route";
+import ShopSection2Route from "./ShopSection2Route";
+import HeroImageRoute from "./HeroImageRoute";
 function HomePageRautes() {
   return (
     <>
@@ -27,7 +29,9 @@ function HomePageRautes() {
           path="/HomePageCategoryList/:id"
           element={<HomePageRouteCategoryList />}
         />
-        <Route path="/shopsection1route/:id" element={<ShopSection1Route/>}/>
+        <Route path="/shopsectionFirstroute/:id" element={<ShopSection1Route/>}/>
+        <Route path="/shopsectionSecondroute/:id" element={<ShopSection2Route/>}/>
+       <Route path="/heroimage/:id" element={<HeroImageRoute/>}/>
       </Routes>
     </>
   );

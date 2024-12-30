@@ -1,0 +1,9 @@
+.shopSection2{
+    display: flex;
+    flex-wrap: wrap;
+    width: 900px;
+    margin: auto;
+}
+.shopsection2products{
+    margin-left: 10px;
+}

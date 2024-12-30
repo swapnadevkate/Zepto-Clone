@@ -1,7 +1,7 @@
 [
 {
 
-
+    "id":"heroimg",
     "heroImg":"https://cdn.zeptonow.com/web-static-assets-prod/artifacts/12.24.0/tr:w-1438,ar-1438-265,pr-true,f-auto,q-80//images/paan-corner/paan-corner-desktop.png",
     "mainSection":{
         "weddingpara":"Wedding store",
@@ -53,25 +53,32 @@
     "heroimage2":"/Images/a978dfb9-3b0b-4ba1-b500-decc8e583227.webp",
     "shopSection2":[
         {
-            "img":"/Images/e6f4bf74-cb7d-430f-a546-f3ad7b818a92.webp"
+            "img":"/Images/e6f4bf74-cb7d-430f-a546-f3ad7b818a92.webp",
+            "id":"101"
         },
         {
-            "img":"/Images/da12777a-3838-4ea2-95ac-3b2b2a0e1bbe.webp"
+            "img":"/Images/da12777a-3838-4ea2-95ac-3b2b2a0e1bbe.webp",
+            "id":"102"
         },
         {
-            "img":"/Images/b831f429-7738-434b-98c1-53d5be45474d.png"
+            "img":"/Images/b831f429-7738-434b-98c1-53d5be45474d.png",
+            "id":"103"
         },
         {
-            "img":"/Images/973b0d4f-4774-4692-ace1-fe47d79d7e4b.png"
+            "img":"/Images/973b0d4f-4774-4692-ace1-fe47d79d7e4b.png",
+            "id":"104"
         },
         {
-            "img":"/Images/682e7730-d5ca-4c80-9920-4bbc41d4d26e.png"
+            "img":"/Images/682e7730-d5ca-4c80-9920-4bbc41d4d26e.png",
+            "id":"105"
         },
         {
-            "img":"/Images/8bcd0dea-f1d9-4a3a-9678-0e7d3823e578.png"
+            "img":"/Images/8bcd0dea-f1d9-4a3a-9678-0e7d3823e578.png",
+            "id":"106"
         },
         {
-            "img":"/Images/4d5def35-0b1d-40ac-a5ed-0f1d1c27b9aa.webp"
+            "img":"/Images/4d5def35-0b1d-40ac-a5ed-0f1d1c27b9aa.webp",
+            "id":"107"
         }
     ],
     "shopSection3":[

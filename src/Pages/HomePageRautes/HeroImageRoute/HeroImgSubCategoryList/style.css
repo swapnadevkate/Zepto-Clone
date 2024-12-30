@@ -1,0 +1,9 @@
+.heroimgsubcategory{
+    display: flex;
+    flex-wrap: wrap;
+    width: 900px;
+    margin: auto;
+}
+.productData{
+    
+}
