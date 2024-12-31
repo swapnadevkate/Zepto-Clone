@@ -1,49 +1,47 @@
-import React, { useState,useEffect, useContext } from 'react'
-import ProductImage from '../../../../components/ProductImage'
-import Text from '../../../../components/Text'
-import Button from '../../../../components/Button'
-import DataContext from '../../../../context/DataContext/DataContext'
-import "./style.css"
-function HeroImageSubCategoryList() {
-  const {state,dispatch} = useContext(DataContext)
-  const clickHandler =()=>{
-    dispatch({type: 'Increment'})
-  }
-  const [imgSubdata,setImgSubData]=useState(null)
-   useEffect(()=>{
-          fetch('/HeroImageRoute.json').then((response)=>response.json())
-          .then((data)=>{
-            setImgSubData(data)
-            
-          })
-      },[])
-      if(imgSubdata==null){
-        return null
-      }
-  return (
+import React, { useState, useEffect, useContext } from "react";
+import ProductImage from "../../../../components/ProductImage";
+import Text from "../../../../components/Text";
+import Button from "../../../../components/Button";
+import DataContext from "../../../../context/DataContext/DataContext";
+import "./style.css";
+function HeroImageSubCategoryList({ arreyitems, imgdata }) {
+  const { state, dispatch } = useContext(DataContext);
+  const clickHandler = () => {
+    dispatch({ type: "Increment" });
+  };
+  
+
+  // aarray Item Object 
+  // display subCategrory (array) list from arrayObject
+  // get index of category
+  // 
+  //
+  // 
+const items = arreyitems.subCategorylist.filter((item)=>{
+  return item.index == imgdata
+  
+})// array of index = product
+
+   return (
     <>
-    <div className='heroimgsubcategory'>
+    <div className="heroimgsubcategory">
     {
-      imgSubdata.map((product)=>{
+      items.map((product)=>{
         return (
-          product.subCategorylist.map((data)=>{
-            return (
-              <div className='productData'>
-              <ProductImage src={data.image}/>
-              <Text text={data.title}/>
-              <Text text={data.quantity}/>
-              <Text text={data.price}/>
-             <Button text={"AddtoCart"} clickHandler={clickHandler}/>
-              </div>
-            )
-          
-          })
+          <div className="productData">
+          <ProductImage src={product.image} />
+          <Text text={product.title} />
+          <Text text={product.quantity} />
+          <Text text={product.price} />
+          <Button text={"AddtoCart"} clickHandler={clickHandler} />
+        </div>
         )
       })
     }
-    </div>
+      </div>
     </>
-  )
+  );
 }
 
-export default HeroImageSubCategoryList
+export default HeroImageSubCategoryList;
+// index is not updating reson,

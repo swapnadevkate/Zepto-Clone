@@ -1,134 +1,120 @@
-[
-  {
-    "categorylist": [
-      {
-        "image": "https://via.placeholder.com/150/FF5733/FFFFFF?text=Fruits",
-        "name": "Fruits"
-      }
-    ],
-    "subCategorylist": [
-      {
-        "image": "https://via.placeholder.com/150/FF5733/FFFFFF?text=Apple",
-        "title": "Fresh Apples - 1kg",
-        "quantity": "10 available",
-        "price": "$2.99"
-      },
-      {
-        "image": "https://via.placeholder.com/150/FF5733/FFFFFF?text=Bananas",
-        "title": "Ripe Bananas - 1kg",
-        "quantity": "15 available",
-        "price": "$1.20"
-      }
-    ]
-  },
-  {
-    "categorylist": [
-      {
-        "image": "https://via.placeholder.com/150/33FF57/FFFFFF?text=Dairy",
-        "name": "Dairy Products"
-      }
-    ],
-    "subCategorylist": [
-      {
-        "image": "https://via.placeholder.com/150/33FF57/FFFFFF?text=Milk",
-        "title": "Organic Milk - 1L",
-        "quantity": "20 available",
-        "price": "$1.49"
-      },
-      {
-        "image": "https://via.placeholder.com/150/33FF57/FFFFFF?text=Cheese",
-        "title": "Cheddar Cheese - 200g",
-        "quantity": "12 available",
-        "price": "$3.99"
-      }
-    ]
-  },
-  {
-    "categorylist": [
-      {
-        "image": "https://via.placeholder.com/150/3357FF/FFFFFF?text=Bakery",
-        "name": "Bakery"
-      }
-    ],
-    "subCategorylist": [
-      {
-        "image": "https://via.placeholder.com/150/3357FF/FFFFFF?text=Bread",
-        "title": "Whole Wheat Bread",
-        "quantity": "25 available",
-        "price": "$1.99"
-      },
-      {
-        "image": "https://via.placeholder.com/150/3357FF/FFFFFF?text=Croissant",
-        "title": "Butter Croissant - Pack of 4",
-        "quantity": "18 available",
-        "price": "$4.50"
-      }
-    ]
-  },
-  {
-    "categorylist": [
-      {
-        "image": "https://via.placeholder.com/150/FF33A1/FFFFFF?text=Beverages",
-        "name": "Beverages"
-      }
-    ],
-    "subCategorylist": [
-      {
-        "image": "https://via.placeholder.com/150/FF33A1/FFFFFF?text=Tea",
-        "title": "Green Tea - 500g",
-        "quantity": "30 available",
-        "price": "$4.59"
-      },
-      {
-        "image": "https://via.placeholder.com/150/FF33A1/FFFFFF?text=Coffee",
-        "title": "Arabica Coffee - 200g",
-        "quantity": "15 available",
-        "price": "$6.99"
-      }
-    ]
-  },
-  {
-    "categorylist": [
-      {
-        "image": "https://via.placeholder.com/150/FFFF33/FFFFFF?text=Vegetables",
-        "name": "Vegetables"
-      }
-    ],
-    "subCategorylist": [
-      {
-        "image": "https://via.placeholder.com/150/FFFF33/FFFFFF?text=Tomatoes",
-        "title": "Fresh Tomatoes - 1kg",
-        "quantity": "18 available",
-        "price": "$2.10"
-      },
-      {
-        "image": "https://via.placeholder.com/150/FFFF33/FFFFFF?text=Carrots",
-        "title": "Organic Carrots - 1kg",
-        "quantity": "22 available",
-        "price": "$1.50"
-      }
-    ]
-  },
-  {
-    "categorylist": [
-      {
-        "image": "https://via.placeholder.com/150/FF8C00/FFFFFF?text=Snacks",
-        "name": "Snacks"
-      }
-    ],
-    "subCategorylist": [
-      {
-        "image": "https://via.placeholder.com/150/FF8C00/FFFFFF?text=Chips",
-        "title": "Potato Chips - 200g",
-        "quantity": "50 available",
-        "price": "$1.50"
-      },
-      {
-        "image": "https://via.placeholder.com/150/FF8C00/FFFFFF?text=Cookies",
-        "title": "Chocolate Chip Cookies - 300g",
-        "quantity": "40 available",
-        "price": "$3.20"
-      }
-    ]
-  }
-]
+{
+  "categorylist": [
+    {
+      "image": "https://via.placeholder.com/150/FF5733/FFFFFF?text=Fruits",
+      "name": "Fruits",
+      "index": "0"
+    },
+    {
+      "image": "https://via.placeholder.com/150/33FF57/FFFFFF?text=Dairy",
+      "name": "Dairy Products",
+      "index": "1"
+    },
+    {
+      "image": "https://via.placeholder.com/150/3357FF/FFFFFF?text=Bakery",
+      "name": "Bakery",
+      "index": "2"
+    },
+    {
+      "image": "https://via.placeholder.com/150/FF33A1/FFFFFF?text=Beverages",
+      "name": "Beverages",
+      "index": "3"
+    },
+    {
+      "image": "https://via.placeholder.com/150/FFFF33/FFFFFF?text=Vegetables",
+      "name": "Vegetables",
+      "index": "4"
+    },
+    {
+      "image": "https://via.placeholder.com/150/FF8C00/FFFFFF?text=Snacks",
+      "name": "Snacks",
+      "index": "5"
+    }
+  ],
+  "subCategorylist": [
+    {
+      "image": "https://via.placeholder.com/150/FF5733/FFFFFF?text=Apple",
+      "title": "Fresh Apples - 1kg",
+      "quantity": "10 available",
+      "price": "$2.99",
+      "index": "0"
+    },
+    {
+      "image": "https://via.placeholder.com/150/FF5733/FFFFFF?text=Bananas",
+      "title": "Ripe Bananas - 1kg",
+      "quantity": "15 available",
+      "price": "$1.20",
+      "index": "0"
+    },
+    {
+      "image": "https://via.placeholder.com/150/33FF57/FFFFFF?text=Milk",
+      "title": "Organic Milk - 1L",
+      "quantity": "20 available",
+      "price": "$1.49",
+      "index": "1"
+    },
+    {
+      "image": "https://via.placeholder.com/150/33FF57/FFFFFF?text=Cheese",
+      "title": "Cheddar Cheese - 200g",
+      "quantity": "12 available",
+      "price": "$3.99",
+      "index": "1"
+    },
+    {
+      "image": "https://via.placeholder.com/150/3357FF/FFFFFF?text=Bread",
+      "title": "Whole Wheat Bread",
+      "quantity": "25 available",
+      "price": "$1.99",
+      "index": "2"
+    },
+    {
+      "image": "https://via.placeholder.com/150/3357FF/FFFFFF?text=Croissant",
+      "title": "Butter Croissant - Pack of 4",
+      "quantity": "18 available",
+      "price": "$4.50",
+      "index": "2"
+    },
+    {
+      "image": "https://via.placeholder.com/150/3357FF/FFFFFF?text=Bread",
+      "title": "Whole Wheat Bread",
+      "quantity": "25 available",
+      "price": "$1.99",
+      "index": "3"
+    },
+    {
+      "image": "https://via.placeholder.com/150/3357FF/FFFFFF?text=Croissant",
+      "title": "Butter Croissant - Pack of 4",
+      "quantity": "18 available",
+      "price": "$4.50",
+      "index": "3"
+    },
+    {
+      "image": "https://via.placeholder.com/150/3357FF/FFFFFF?text=Bread",
+      "title": "Whole Wheat Bread",
+      "quantity": "25 available",
+      "price": "$1.99",
+      "index": "4"
+    },
+    {
+      "image": "https://via.placeholder.com/150/3357FF/FFFFFF?text=Croissant",
+      "title": "Butter Croissant - Pack of 4",
+      "quantity": "18 available",
+      "price": "$4.50",
+      "index": "4"
+    },
+    {
+      "image": "https://via.placeholder.com/150/FF8C00/FFFFFF?text=Chips",
+      "title": "Potato Chips - 200g",
+      "quantity": "50 available",
+      "price": "$1.50",
+      "index": "5"
+    },
+    {
+      "image": "https://via.placeholder.com/150/FF8C00/FFFFFF?text=Cookies",
+      "title": "Chocolate Chip Cookies - 300g",
+      "quantity": "40 available",
+      "price": "$3.20",
+      "index": "5"
+    }
+  ]
+}
